@@ -4,16 +4,18 @@
 
 	body {
 		background : #fff;	
-		font-family : "Open Sans", Helvetica, Arial, sans-serif;
-		font-size : 15px;
+		font-family : Georgia, "Times New Roman", serif;
+		font-size : 20px;
 		color : #000;
-		line-height : 1.3;
+		line-height : 1.6;
 	}
 	
 	a:link 		{ color : blue; font-weight : normal; text-decoration : underline; }
 	a:visited 	{ color : blue; font-weight : normal; text-decoration : underline; }
 	a:hover 	{ color : red; font-weight : normal; text-decoration : underline; }
-	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }	
+	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }
+	
+/* layout helpers */		
 	
 	.row {
 		width : 100%;
@@ -36,6 +38,8 @@
 	.full-width .container {
 		width : 100%;
 	}
+	
+	.jumbo { padding : 60px 0 50px 0; }
 
 /* default content */
 
@@ -46,8 +50,8 @@
 	h5,
 	h6 {
 		color : #000;
-		font-weight : bold;
-		letter-spacing : 0.2;
+		font-weight : normal;
+		letter-spacing : 0;
 		line-height : 1.5;
 		margin : 0 0 15px 0;
 	}
@@ -127,8 +131,27 @@
 		input[type=submit]:active,
 		button:active,
 		.button:active		{ color : #fff; background-color : #d64f1f; }
+
+/* header */
+
+	.header {
 	
-/* components */	
+	}
+	
+	.header h1 {
+		color : #ccc;
+		font-family : Georgia, "Times New Roman", serif;
+		font-weight : normal;
+		text-transform : lowercase;
+	}
+		
+/* content components */
+
+	/* posts */
+	
+		.post {
+			margin-bottom : 60px;
+		}
 
 	/* content helpers */
 	
@@ -174,14 +197,7 @@
 
 		.wp-caption.aligncenter p {
 			padding : 0 30px 0 30px;
-		}		
-		
-	/* panels */	
-		
-		.panel {
-			background-color : #eee;
-			padding : 10px 10px 5px 10px;		
-		}	
+		}
 			
 	/* inline forms */
 	
@@ -189,7 +205,13 @@
 		.inline input,
 		.inline button {
 			display : inline; 
-		}				
+		}			
+		
+/* footer */
+
+	.footer {
+	
+	}		
 		
 /* utility classes */
 	
