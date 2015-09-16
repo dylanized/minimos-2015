@@ -1,6 +1,6 @@
-/* Minimos Core CSS */
+/* MINIMOS CORE CSS */
 
-/* layout */	
+/* base styles */	
 
 	body {
 		background : #fff;	
@@ -10,99 +10,78 @@
 		line-height : 1.6;
 	}
 	
-	a:link 		{ color : blue; font-weight : normal; text-decoration : underline; }
+	a:link,
 	a:visited 	{ color : blue; font-weight : normal; text-decoration : underline; }
-	a:hover 	{ color : red; font-weight : normal; text-decoration : underline; }
+	
+	a:hover,
 	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }
 	
-/* layout helpers */		
-	
-	.row {
-		width : 100%;
-		clear : both;
-		padding : 0;		
-	}
-			
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}	
+	/* headers */
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5, 
+		h6 {
+			color : #000;
+			font-weight : normal;
+			letter-spacing : 0;
+			line-height : 1.5;
+			margin : 0 0 15px 0;
+		}
 		
-	.container {
-		max-width : 960px;
-		margin: 0 auto;
-		padding : 0 1em 0 1em;
-	}
+		h1 		{ font-size : 40px; }
+		h2		{ font-size : 30px; }
+		h3		{ font-size : 25px; }
+		h4		{ font-size : 20px; }
+		h5 		{ font-size : 15px; }
+		h6 		{ font-size : 10px; }
+		
+		h1 a:link, 
+		h1 a:visited 	{ color : #ccc; }
+		h1 a:hover,
+		h1 a:active 	{ color : #999; }
 	
-	.jumbo { padding : 50px 0; }
+	/* content */
+	
+		p {
+			margin : 0 0 20px 0;
+		}
+		
+		ul {
+			list-style-type : square;
+			margin : 0 0 20px 20px;
+			padding : 0;
+		}
+		
+		ol {
+			margin : 0 0 20px 20px;
+			padding : 0;	
+		}
+		
+		li {
+			margin : 0 0 4px 0;
+		}
+		
+		small {
+			font-size : 10px;
+		}
+		
+		blockquote {
+			border-top : 1px solid #e8e8e8;
+			border-bottom : 1px solid #e8e8e8;
+			text-align : center;
+			margin : 30px 0 20px 0;
+			padding : 20px;
+		}
+		
+		hr {
+			color : #000;
+		}
+		
+	/* forms fields */
 
-/* default content */
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5, 
-	h6 {
-		color : #000;
-		font-weight : normal;
-		letter-spacing : 0;
-		line-height : 1.5;
-		margin : 0 0 15px 0;
-	}
-	
-	h1 		{ font-size : 40px; }
-	h2		{ font-size : 30px; }
-	h3		{ font-size : 25px; }
-	h4		{ font-size : 20px; }
-	h5 		{ font-size : 15px; }
-	h6 		{ font-size : 10px; }
-	
-	h1 a:link, 
-	h1 a:visited 	{ color : #ccc; }
-	h1 a:hover,
-	h1 a:active 	{ color : #999; }
-	
-	p {
-		margin : 0 0 20px 0;
-	}
-	
-	ul {
-		list-style-type : square;
-		margin : 0 0 20px 20px;
-		padding : 0;
-	}
-	
-	ol {
-		margin : 0 0 20px 20px;
-		padding : 0;	
-	}
-	
-	li {
-		margin : 0 0 4px 0;
-	}
-	
-	small {
-		font-size : 10px;
-	}
-	
-	blockquote {
-		border-top : 1px solid #e8e8e8;
-		border-bottom : 1px solid #e8e8e8;
-		text-align : center;
-		margin : 30px 0 20px 0;
-		padding : 20px;
-	}
-	
-	hr {
-		color : #000;
-	}
-	
-/* forms */
-
-	/* fields */
-	
 		label {
 		
 		}
@@ -134,12 +113,33 @@
 		input[type=submit]:active,
 		button:active,
 		.button:active		{ color : #fff; background-color : red; }
+				
+/* layout helpers */		
+		
+	.row {
+		width : 100%;
+		clear : both;
+		padding : 0;		
+	}
+			
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}	
+		
+	.container {
+		max-width : 960px;
+		margin: 0 auto;
+		padding : 0 1em 0 1em;
+	}
+	
+	.jumbo { padding : 50px 0; }		
 
 /* header */
 
 	.header .logo {
 		color : #ccc;
-		font-family : Georgia, "Times New Roman", serif;
 		font-weight : normal;
 		text-transform : lowercase;
 		margin : 0;
@@ -151,25 +151,13 @@
 	.header a:hover,
 	.header a:active { color : #999; font-weight : normal; text-decoration : none; }	
 		
-/* content components */
+/* content */
 
 	/* posts */
 	
 		.post {
 			margin-bottom : 60px;
-		}
-
-	/* content helpers */
-	
-		.lead {
-			font-size : 21px;
-			line-height : 1.4;
-			margin : 0 0 15px 0;
-		}
-		
-		.highlight {
-			background-color : yellow;
-		}		
+		}	
 		
 	/* wp images */
 	
@@ -211,25 +199,24 @@
 		.inline input,
 		.inline button {
 			display : inline; 
-		}			
+		}		
 		
 /* footer */
 
 	.footer {
-		border-top : 1px solid #e8e8e8;
 		color : #ccc;
 	}
 	
-	.footer p { margin : 0; }
-
 	.footer a:link,
 	.footer a:visited 	{ color : #ccc; text-decoration : none; }
+	
 	.footer a:hover,
 	.footer a:active 	{ color : red; text-decoration : underline; }
 		
 /* utility classes */
 	
 	.uppercase 		{ text-transform : uppercase !important; }	
+	.lowercase 		{ text-transform : lowercase !important; }	
 	.underline 		{ text-decoration : underline !important; }
 	.strike 		{ text-decoration : line-through !important; }	
 	.indent 		{ margin-left : 30px !important; }

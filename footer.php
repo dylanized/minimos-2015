@@ -2,7 +2,7 @@
 
 	<div class="container">
 
-		<p><a href="http://twitter.com/dylanized">by @dylanized</a></p>
+		<p class="no-margin"><a href="http://twitter.com/dylanized">by @dylanized</a></p>
 		
 	</div>
 
