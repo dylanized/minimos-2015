@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="row grid">
+<div class="row">
 
-	<main id="content" class="col-9-12" role="main">
+	<main class="container content" role="main">
 	
 		<?php if (have_posts()) : ?>
 	
@@ -27,8 +27,12 @@
 			<?php endwhile; ?>
 	
 		<?php else : ?>
+		
+			<section>
 	
-			<p><em>Sorry, no posts found!</em></p>
+				<p><em>Sorry, no posts found!</em></p>
+				
+			</section>
 	
 		<?php endif; ?>
 	
