@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div class="row jumbo">
 
 	<main class="container content" role="main">
 	
@@ -12,7 +12,11 @@
 	
 					<header class="post-header">
 					
-						<h1><?php the_title(); ?></h1>									
+						<?php if (is_singular) { ?>
+							<h1><?php the_title(); ?></h1>
+						<?php } else { ?>
+							<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+						<?php } ?>
 						
 					</header>
 					

@@ -32,7 +32,7 @@
 
 <body <?php body_class(); ?>>
 
-<header class="row header jumbo">
+<header class="row header jumbo border-bottom">
 
 	<div class="container">
 	
