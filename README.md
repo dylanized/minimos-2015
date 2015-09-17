@@ -1,4 +1,4 @@
-# minimos
-a simple website framework
+# minimos wp
+a simple wordpress base theme
 
-see it live at http://minimos.net
+see more at http://minimos.net

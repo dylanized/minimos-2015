@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="row jumbo">
+<main class="row padding-top content" role="main">
 
-	<main class="container content" role="main">
+	<div class="container">
 	
 		<?php if (have_posts()) : ?>
 	
@@ -40,8 +40,8 @@
 	
 		<?php endif; ?>
 	
-	</main>
+	</div>
 
-</div>
+</main>
 
 <?php get_footer(); ?>

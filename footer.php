@@ -1,4 +1,4 @@
-<footer class="row footer jumbo border-top">
+<footer class="row footer padding border-top">
 
 	<div class="container">
 
