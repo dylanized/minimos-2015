@@ -1,9 +1,92 @@
 /* MINIMOS COLOR CLASSES */
+
+	/* named colors - color, bgd, border */
 	
-.red			{ color : red !important; }
-.orange			{ color : orange !important; }
-.green			{ color : green !important; }
-.blue			{ color : blue !important; }
-.purple			{ color : purple !important; }
-.gray			{ color : gray !important; }
-.black			{ color : black !important; }
+		.color-red 		{ color : red !important }
+		.color-green 	{ color : green !important }
+		.color-blue 	{ color : blue !important }
+		.color-yellow 	{ color : yellow !important }
+		.color-green 	{ color : green !important }
+		.color-purple 	{ color : purple !important }
+		.color-orange	{ color : orange !important }
+		.color-brown 	{ color : brown !important }
+		.color-maroon 	{ color : maroon !important }
+		.color-navy 	{ color : navy !important }
+		.color-cyan 	{ color : cyan !important }
+		
+		.bgd-red 		{ background-color : red !important }
+		.bgd-green 		{ background-color : green !important }
+		.bgd-blue 		{ background-color : blue !important }
+		.bgd-yellow 	{ background-color : yellow !important }
+		.bgd-green 		{ background-color : green !important }
+		.bgd-purple 	{ background-color : purple !important }
+		.bgd-orange 	{ background-color : orange !important }
+		.bgd-brown 		{ background-color : brown !important }
+		.bgd-maroon 	{ background-color : maroon !important }
+		.bgd-navy 		{ background-color : navy !important }
+		.bgd-cyan 		{ background-color : cyan !important }
+		
+		.border-red 	{ border-color : red !important }
+		.border-green 	{ border-color : green !important }
+		.border-blue 	{ border-color : blue !important }
+		.border-yellow 	{ border-color : yellow !important }
+		.border-green 	{ border-color : green !important }
+		.border-purple 	{ border-color : purple !important }
+		.border-orange 	{ border-color : orange !important }
+		.border-brown 	{ border-color : brown !important }
+		.border-maroon 	{ border-color : maroon !important }
+		.border-navy 	{ border-color : navy !important }
+		.border-cyan 	{ border-color : cyan !important }
+	
+	/* grays - color, bgd, border */
+	
+		.color-000 { color : #000 !important }
+		.color-111 { color : #111 !important }
+		.color-222 { color : #222 !important }
+		.color-333 { color : #333 !important }
+		.color-444 { color : #444 !important }
+		.color-555 { color : #555 !important }
+		.color-666 { color : #666 !important }
+		.color-777 { color : #777 !important }
+		.color-888 { color : #888 !important }
+		.color-999 { color : #999 !important }
+		.color-aaa { color : #aaa !important }
+		.color-bbb { color : #bbb !important }
+		.color-ccc { color : #ccc !important }
+		.color-ddd { color : #ddd !important }
+		.color-eee { color : #eee !important }
+		.color-fff { color : #fff !important }
+		
+		.bgd-000 { background-color : #000 !important }
+		.bgd-111 { background-color : #111 !important }
+		.bgd-222 { background-color : #222 !important }
+		.bgd-333 { background-color : #333 !important }
+		.bgd-444 { background-color : #444 !important }
+		.bgd-555 { background-color : #555 !important }
+		.bgd-666 { background-color : #666 !important }
+		.bgd-777 { background-color : #777 !important }
+		.bgd-888 { background-color : #888 !important }
+		.bgd-999 { background-color : #999 !important }
+		.bgd-aaa { background-color : #aaa !important }
+		.bgd-bbb { background-color : #bbb !important }
+		.bgd-ccc { background-color : #ccc !important }
+		.bgd-ddd { background-color : #ddd !important }
+		.bgd-eee { background-color : #eee !important }
+		.bgd-fff { background-color : #fff !important }	
+		
+		.border-000 { border-color : #000 !important }
+		.border-111 { border-color : #111 !important }
+		.border-222 { border-color : #222 !important }
+		.border-333 { border-color : #333 !important }
+		.border-444 { border-color : #444 !important }
+		.border-555 { border-color : #555 !important }
+		.border-666 { border-color : #666 !important }
+		.border-777 { border-color : #777 !important }
+		.border-888 { border-color : #888 !important }
+		.border-999 { border-color : #999 !important }
+		.border-aaa { border-color : #aaa !important }
+		.border-bbb { border-color : #bbb !important }
+		.border-ccc { border-color : #ccc !important }
+		.border-ddd { border-color : #ddd !important }
+		.border-eee { border-color : #eee !important }
+		.border-fff { border-color : #fff !important }
