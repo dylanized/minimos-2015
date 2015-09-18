@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="row padding-top content" role="main">
+<main class="row pad-top-30 content" role="main">
 
 	<div class="container">
 	
@@ -12,7 +12,7 @@
 	
 					<header class="post-header">
 					
-						<?php if (is_singular) { ?>
+						<?php if (is_singular()) { ?>
 							<h1><?php the_title(); ?></h1>
 						<?php } else { ?>
 							<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>

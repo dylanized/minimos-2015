@@ -10,7 +10,10 @@
 		
 		// theme css
 		wp_enqueue_style("theme-core", get_template_directory_uri() . "/css/core.css");			
-		wp_enqueue_style("theme-overrides", get_template_directory_uri() . "/style.css");			
+		wp_enqueue_style("theme-utility", get_template_directory_uri() . "/css/utility.css");
+		wp_enqueue_style("theme-colors", get_template_directory_uri() . "/css/colors.css");			
+		wp_enqueue_style("theme-media", get_template_directory_uri() . "/css/media.css");			
+		wp_enqueue_style("theme-overrides", get_template_directory_uri() . "/style.css");					
 	
 	}
 

@@ -1,0 +1,69 @@
+/* MINIMOS UTILITY CLASSES */
+	
+.uppercase 		{ text-transform : uppercase !important; }	
+.lowercase 		{ text-transform : lowercase !important; }	
+.underline 		{ text-decoration : underline !important; }
+.strike 		{ text-decoration : line-through !important; }	
+.indent 		{ margin-left : 30px !important; }
+.bold			{ font-weight : bold !important; }
+.normal			{ font-weight : normal !important; }
+
+.text-left 		{ text-align : left !important; }
+.text-center 	{ text-align : center !important; }
+.text-right 	{ text-align : right !important; }
+
+.hidden 		{ position : absolute !important; left : -9999px !important; }
+.relative		{ position : relative !important; }	
+.display-none	{ display : none !important; }
+
+.block 			{ display : block !important; }	
+.inline-block 	{ display : inline-block !important; }		
+.inline 		{ display : inline !important; }
+
+.margin-top 	{ margin-top : 20px !important; }
+.margin-bottom 	{ margin-bottom : 20px !important; }
+.no-margin		{ margin : 0 !important; }
+.padding		{ padding : 15px !important; }
+.no-border		{ border : none !important; }
+
+.pad-top-50		{ padding-top : 50px !important; }
+.pad-v-50		{ padding-top : 50px !important; padding-bottom : 50px !important; }
+.pad-bottom-50	{ padding-bottom : 50px !important; }
+
+.left			{ float : left !important; }	
+.right			{ float : right !important; }
+
+.clear 			{ clear : both !important; }
+.clear-left 	{ clear : left !important; }
+.clear-right 	{ clear : right !important; }
+.float-none 	{ float : none !important; }
+
+.centered 		{ float : none !important; margin-left : auto !important; margin-right : auto !important; }	
+
+.short 			{ width : 25% !important; }
+.medium 		{ width : 50% !important; }
+.long 			{ width : 75% !important; }
+
+.rounded 		{ border-radius : 10px; }
+
+.img-rounded 	{ border-radius: 6px !important; }
+.img-circle 	{ border-radius: 50% !important; }
+.img-thumbnail  { display: inline-block; padding: 4px; background-color: #fff; border: 1px solid #ddd; }
+
+.full-width 	{ max-width : 100% !important; width : 100% !important; }
+.full-height 	{ height : 100% !important; }
+.overlay		{ width : 100%; height : 100%; background-color : rgba(0,0,0,.65); }
+
+.red			{ color : red !important; }
+.orange			{ color : orange !important; }
+.green			{ color : green !important; }
+.blue			{ color : blue !important; }
+.purple			{ color : purple !important; }
+.gray			{ color : gray !important; }
+.black			{ color : black !important; }
+
+.border			{ border : 1px solid #e8e8e8; }
+.border-top		{ border-top : 1px solid #e8e8e8; }
+.border-right	{ border-right : 1px solid #e8e8e8; }
+.border-bottom	{ border-bottom : 1px solid #e8e8e8; }
+.border-left	{ border-left : 1px solid #e8e8e8; }

@@ -1,0 +1,21 @@
+/* MINIMOS MEDIA QUERIES */
+	
+/* wide screens */
+@media only screen and (min-width: 1160px) {
+
+}
+
+/* big devices */
+@media only screen and (max-width: 979px) {
+
+}
+	
+/* medium devices */
+@media only screen and (max-width: 768px) {		
+		
+}
+
+/* small devices */
+@media only screen and (max-width: 480px) {
+	
+}

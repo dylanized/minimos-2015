@@ -32,11 +32,11 @@
 
 <body <?php body_class(); ?>>
 
-<header class="row header padding border-bottom sticky">
+<header class="row header pad-v-50 border-bottom">
 
 	<div class="container">
 	
-		<?php if (is_home()) { ?>
+		<?php if (is_home() || is_front_page()) { ?>
 			<h1 class="logo"><span>Minimos</span></h1>
 		<?php } else { ?>
 			<a class="logo" href="/"><span>Minimos</span></a>

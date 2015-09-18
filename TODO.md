@@ -1,18 +1,8 @@
 # minimos todos
 
+- get post title styles working
+- add simple post meta
 
-
-check in latest code
-
-change repo name to minimos-wp
-
-build first version of minimos-html
-
-
-
-fix whatever you broke
-fix header spacing
-fix interior header text style
 add some images
 add a faq page
 .no-bullets
@@ -20,9 +10,10 @@ add a faq page
 
 
 
-- get padding right
-- get post title styles working
-- add simple post meta
+
+
+===
+
 - lipsum
 -- img
 -- blockquotes
@@ -37,7 +28,7 @@ add a faq page
 -- ordered list
 
 
-
+build first version of minimos-html
 
 
 - break out css file
