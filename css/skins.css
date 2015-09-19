@@ -1,0 +1,31 @@
+/* SKINS */
+
+/* sleek */
+
+	.sleek {
+		background-color : #111;
+		color : #fff;
+	}
+
+/* fresh */
+
+	.fresh {
+		background-color : #fff;
+		color : cyan;
+	}	
+
+/* funky */
+
+	.funky {
+		background-color : yellow;
+		color : red;
+		font-family : "Comic Sans", Arial;
+	}		
+
+/* biz */	
+
+	.biz {
+		background-color : #fff;
+		color : #000;
+		font-family : "Open Sans", Helvetica, Arial;					
+	}
