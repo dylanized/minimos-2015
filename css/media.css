@@ -12,7 +12,9 @@
 	
 /* medium devices */
 @media only screen and (max-width: 768px) {		
-		
+	
+	.row.pad { padding : 10px 0 10px 0; }	
+	
 }
 
 /* small devices */
