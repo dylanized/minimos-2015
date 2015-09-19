@@ -32,7 +32,7 @@
 
 <body <?php body_class(); ?>>
 
-<header class="row header pad border-bottom">
+<header class="row header pad border-bottom color-lite">
 
 	<div class="container">
 	
