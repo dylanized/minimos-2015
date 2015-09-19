@@ -159,6 +159,14 @@
 		}	
 		
 	/* wp images */
+				
+		.wp-image,
+		.img-thumbnail {
+			display: inline-block;
+			padding: 4px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+		}	
 	
 		.alignleft {
 			float: left;
@@ -199,6 +207,24 @@
 		.inline button {
 			display : inline; 
 		}		
+		
+	/* custom utilities */
+		
+		.margin-top			{ margin : 20px !important; }
+		.margin-bottom		{ margin : 20px !important; }
+		.margin-v			{ margin-top : 20px !important; margin-bottom : 20px !important; }
+	
+		.pad				{ padding : 20px !important; }
+		.pad-bottom			{ padding-bottom : 20px !important; }
+		
+		.border				{ border : 1px solid #e8e8e8; }
+	
+		.border-top			{ border-top : 1px solid #e8e8e8; }
+		.border-right		{ border-right : 1px solid #e8e8e8; }
+		.border-bottom		{ border-bottom : 1px solid #e8e8e8; }
+		.border-left		{ border-left : 1px solid #e8e8e8; }
+		
+		.rounded 			{ border-radius : 10px; }
 		
 /* site footer */
 
