@@ -1,42 +1,95 @@
 /* MINIMOS COLOR CLASSES */
 
-	/* named colors - color, bgd, border */
+	/* web colors - color, bgd, border */
 	
 		.color-red 		{ color : red !important }
-		.color-green 	{ color : green !important }
-		.color-blue 	{ color : blue !important }
-		.color-yellow 	{ color : yellow !important }
-		.color-green 	{ color : green !important }
-		.color-purple 	{ color : purple !important }
-		.color-orange	{ color : orange !important }
-		.color-brown 	{ color : brown !important }
 		.color-maroon 	{ color : maroon !important }
+		.color-yellow 	{ color : yellow !important }
+		.color-olive 	{ color : olive !important }
+		.color-lime 	{ color : lime !important }
+		.color-green 	{ color : green !important }
+		.color-aqua 	{ color : aqua !important }
+		.color-teal 	{ color : teal !important }
+		.color-blue 	{ color : blue !important }
 		.color-navy 	{ color : navy !important }
-		.color-cyan 	{ color : cyan !important }
+		.color-fuchsia 	{ color : fuchsia !important }
+		.color-purple 	{ color : purple !important }
 		
 		.bgd-red 		{ background-color : red !important }
-		.bgd-green 		{ background-color : green !important }
-		.bgd-blue 		{ background-color : blue !important }
-		.bgd-yellow 	{ background-color : yellow !important }
-		.bgd-green 		{ background-color : green !important }
-		.bgd-purple 	{ background-color : purple !important }
-		.bgd-orange 	{ background-color : orange !important }
-		.bgd-brown 		{ background-color : brown !important }
 		.bgd-maroon 	{ background-color : maroon !important }
+		.bgd-yellow 	{ background-color : yellow !important }
+		.bgd-olive 		{ background-color : olive !important }
+		.bgd-lime 		{ background-color : lime !important }
+		.bgd-green 		{ background-color : green !important }
+		.bgd-aqua 		{ background-color : aqua !important }
+		.bgd-teal 		{ background-color : teal !important }
+		.bgd-blue 		{ background-color : blue !important }
 		.bgd-navy 		{ background-color : navy !important }
-		.bgd-cyan 		{ background-color : cyan !important }
+		.bgd-fuchsia 	{ background-color : fuchsia !important }
+		.bgd-purple 	{ background-color : purple !important }
 		
 		.border-red 	{ border-color : red !important }
-		.border-green 	{ border-color : green !important }
-		.border-blue 	{ border-color : blue !important }
-		.border-yellow 	{ border-color : yellow !important }
-		.border-green 	{ border-color : green !important }
-		.border-purple 	{ border-color : purple !important }
-		.border-orange 	{ border-color : orange !important }
-		.border-brown 	{ border-color : brown !important }
 		.border-maroon 	{ border-color : maroon !important }
+		.border-yellow 	{ border-color : yellow !important }
+		.border-olive 	{ border-color : olive !important }
+		.border-lime 	{ border-color : lime !important }
+		.border-green 	{ border-color : green !important }
+		.border-aqua 	{ border-color : aqua !important }
+		.border-teal 	{ border-color : teal !important }
+		.border-blue 	{ border-color : blue !important }
 		.border-navy 	{ border-color : navy !important }
-		.border-cyan 	{ border-color : cyan !important }
+		.border-fuchsia { border-color : fuchsia !important }
+		.border-purple 	{ border-color : purple !important }
+		
+	/* x11 colors - color, bgd, border */
+	
+		.color-orange			{ color : orange !important }
+		.color-orange-red		{ color : orange-red !important }
+		.color-dark-orange		{ color : dark-orange !important }
+		.color-brown 			{ color : brown !important }
+		.color-cyan 			{ color : cyan !important }		
+		.color-cornflower 		{ color : cornflower !important }		
+		.color-midnight-blue 	{ color : cyan !important }		
+		.color-slate-gray 		{ color : slate-gray !important }		
+		.color-white-smoke 		{ color : white-smoke !important }		
+		.color-tomato 			{ color : tomato !important }		
+		.color-gold 			{ color : gold !important }		
+		.color-goldenrod 		{ color : goldenrod !important }		
+		.color-sienna 			{ color : sienna !important }		
+		.color-peru 			{ color : peru !important }		
+		.color-tan 				{ color : tan !important }		
+		
+		.bgd-orange 			{ background-color : orange !important }
+		.bgd-orange-red 		{ background-color : orange-red !important }
+		.bgd-dark-orange 		{ background-color : dark-orange !important }
+		.bgd-brown 				{ background-color : brown !important }
+		.bgd-cyan 				{ background-color : cyan !important }
+		.bgd-cornflower 		{ background-color : cornflower !important }
+		.bgd-midnight-blue 		{ background-color : midnight-blue !important }
+		.bgd-slate-gray 		{ background-color : slate-gray !important }
+		.bgd-white-smoke 		{ background-color : white-smoke !important }
+		.bgd-tomato 			{ background-color : tomato !important }
+		.bgd-gold 				{ background-color : gold !important }
+		.bgd-goldenrod 			{ background-color : goldenrod !important }
+		.bgd-sienna 			{ background-color : sienna !important }
+		.bgd-peru 				{ background-color : peru !important }
+		.bgd-tan 				{ background-color : tan !important }
+
+		.border-orange 			{ border-color : orange !important }
+		.border-orange-red 		{ border-color : orange-red !important }
+		.border-dark-orange 	{ border-color : dark-orange !important }
+		.border-brown 			{ border-color : brown !important }
+		.border-cyan 			{ border-color : cyan !important }
+		.border-cornflower 		{ border-color : cornflower !important }
+		.border-midnight-blue 	{ border-color : midnight-blue !important }
+		.border-slate-gray 		{ border-color : slate-gray !important }
+		.border-white-smoke 	{ border-color : white-smoke !important }
+		.border-tomato 			{ border-color : tomato !important }
+		.border-gold 			{ border-color : gold !important }
+		.border-goldenrod 		{ border-color : goldenrod !important }
+		.border-sienna 			{ border-color : sienna !important }
+		.border-peru 			{ border-color : peru !important }
+		.border-tan 			{ border-color : tan !important }
 	
 	/* grays - color, bgd, border */
 	
