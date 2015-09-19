@@ -1,5 +1,25 @@
 /* MINIMOS UTILITY CLASSES */
 
+/* layout helpers */		
+		
+	.row {
+		width : 100%;
+		clear : both;
+		padding : 0;		
+	}
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}	
+		
+	.container {
+		max-width : 960px;
+		margin: 0 auto;
+		padding : 0 1em 0 1em;
+	}					
+
 /* typography */
 	
 	.uppercase 			{ text-transform : uppercase !important; }	
@@ -15,7 +35,7 @@
 	.text-center 		{ text-align : center !important; }
 	.text-right 		{ text-align : right !important; }
 
-/* layout */
+/* display and positioning */
 	
 	.hidden 			{ position : absolute !important; left : -9999px !important; }
 	
@@ -27,14 +47,18 @@
 	.absolute 			{ position : absolute !important; }
 	.relative			{ position : relative !important; }	
 	.static				{ position : static !important; }
+	
+/* width and height */
 		
 	.width-25 			{ width : 25% !important; }
 	.width-50 			{ width : 50% !important; }
 	.width-75 			{ width : 75% !important; }
 			
 	.width-100 			{ width : 100% !important; }
-	.max-100			{ max-width : 100% !important; }
+	.max-width-100		{ max-width : 100% !important; }
 	.height-100 		{ height : 100% !important; }
+	
+/* alignment */	
 	
 	.float-left			{ float : left !important; }	
 	.float-right		{ float : right !important; }
