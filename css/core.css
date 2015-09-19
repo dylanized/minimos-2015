@@ -14,7 +14,13 @@
 	a:visited 	{ color : blue; font-weight : normal; text-decoration : underline; }
 	
 	a:hover,
-	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }		
+	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }	
+	
+/* layout tweaks */	
+	
+	.row.pad		{ padding : 30px 0 30px 0 !important; }
+	
+	body .container { max-width : 960px; }
 	
 /* default content */	
 	
@@ -129,7 +135,7 @@
 			margin-bottom : 60px;
 		}	
 		
-	/* wp images */
+	/* images */
 				
 		.wp-image,
 		.img-thumbnail {
@@ -179,37 +185,43 @@
 			display : inline; 
 		}		
 		
-	/* custom utilities */
-		
-		.margin-top			{ margin : 20px !important; }
-		.margin-bottom		{ margin : 20px !important; }
-		.margin-v			{ margin-top : 20px !important; margin-bottom : 20px !important; }
+	/* cards */
 	
-		.row.pad			{ padding : 30px 0 30px 0 !important; }
+		.card {
+			padding : 10px;
+			float : left;
+			margin : 0 15px 15px 0;
+		}		
+		
+/* custom utilities */
 	
-		.pad				{ padding : 20px !important; }
-		.pad-bottom			{ padding-top : 20px !important; }
-		.pad-bottom			{ padding-bottom : 20px !important; }
-		
-		.border				{ border : 1px solid #e8e8e8; }	
-		.border-top			{ border-top : 1px solid #e8e8e8; }
-		.border-right		{ border-right : 1px solid #e8e8e8; }
-		.border-bottom		{ border-bottom : 1px solid #e8e8e8; }
-		.border-left		{ border-left : 1px solid #e8e8e8; }
-		
-		.rounded 			{ border-radius : 10px; }
-		.indent 			{ margin-left : 30px !important; }
-		
-		.short				{ width : 70px; }
-		.medium				{ width : 150px; }
-		.long				{ width : 220px; }
-		
-	/* custom colors */
+	.margin-top			{ margin : 20px !important; }
+	.margin-bottom		{ margin : 20px !important; }
+	.margin-v			{ margin-top : 20px !important; margin-bottom : 20px !important; }
+
+	.pad				{ padding : 20px !important; }
+	.pad-bottom			{ padding-top : 20px !important; }
+	.pad-bottom			{ padding-bottom : 20px !important; }
 	
-		.color-lite		{ color : #ccc; }	
-		
-		.color-lite a:link,
-		.color-lite a:visited 	{ color : #ccc; text-decoration : none; }
-		
-		.color-lite a:hover,
-		.color-lite a:active 	{ color : red; text-decoration : underline; }
+	.border				{ border : 1px solid #e8e8e8; }	
+	.border-top			{ border-top : 1px solid #e8e8e8; }
+	.border-right		{ border-right : 1px solid #e8e8e8; }
+	.border-bottom		{ border-bottom : 1px solid #e8e8e8; }
+	.border-left		{ border-left : 1px solid #e8e8e8; }
+	
+	.rounded 			{ border-radius : 10px; }
+	.indent 			{ margin-left : 30px !important; }
+	
+	.short				{ width : 70px; }
+	.medium				{ width : 150px; }
+	.long				{ width : 220px; }
+	
+/* custom colors */
+
+	.color-lite		{ color : #ccc; }	
+	
+	.color-lite a:link,
+	.color-lite a:visited 	{ color : #ccc; text-decoration : none; }
+	
+	.color-lite a:hover,
+	.color-lite a:active 	{ color : red; text-decoration : underline; }
