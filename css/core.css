@@ -151,14 +151,6 @@
 
 	.header a:hover,
 	.header a:active { color : #999; font-weight : normal; text-decoration : none; }	
-	
-	.sticky {
-	    position: fixed;
-	    width: 100%;
-	    left: 0;
-	    top: 0;
-	    z-index: 100;
-	}		
 		
 /* essential components */
 
