@@ -32,12 +32,12 @@
 
 <body <?php body_class(); ?>>
 
-<header class="row header pad-v-50 border-bottom">
+<header class="row header pad border-bottom">
 
 	<div class="container">
 	
 		<?php if (is_home() || is_front_page()) { ?>
-			<h1 class="logo"><span><?php bloginfo('name'); ?></h1>
+			<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>
 			<h3 class="em"><?php bloginfo('description'); ?></h3>
 		<?php } else { ?>
 			<a class="logo" href="/"><?php bloginfo('name'); ?></a>

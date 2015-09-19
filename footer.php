@@ -1,4 +1,4 @@
-<footer class="row footer pad-50 border-top">
+<footer class="row footer pad border-top color-lite">
 
 	<div class="container">
 
