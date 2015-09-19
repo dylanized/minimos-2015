@@ -11,9 +11,14 @@
 }
 	
 /* medium devices */
-@media only screen and (max-width: 768px) {		
+@media only screen and (max-width: 768px) {	
+
+	.header h3 {
+		font-size : 20px;
+		margin-bottom : 10px;
+	}
 	
-	.row.pad { padding : 10px 0 10px 0; }	
+	.row.pad { padding : 5px 0 5px 0; }	
 	
 }
 
