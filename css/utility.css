@@ -55,8 +55,9 @@
 	.width-75 			{ width : 75% !important; }
 			
 	.width-100 			{ width : 100% !important; }
-	.max-width-100		{ max-width : 100% !important; }
 	.height-100 		{ height : 100% !important; }
+
+	.max-width-100		{ max-width : 100% !important; }
 	
 /* alignment */	
 	
@@ -94,7 +95,7 @@
 	.margin-bottom-40	{ margin-bottom : 40px !important; }
 	.margin-bottom-50	{ margin-bottom : 50px !important; }
 
-	.margin-v-5			{ margin-top : 0px !important; margin-bottom : 0px !important; }
+	.margin-v-0			{ margin-top : 0px !important; margin-bottom : 0px !important; }
 	.margin-v-5			{ margin-top : 5px !important; margin-bottom : 5px !important; }
 	.margin-v-10		{ margin-top : 10px !important; margin-bottom : 10px !important; }
 	.margin-v-20		{ margin-top : 20px !important; margin-bottom : 20px !important; }
