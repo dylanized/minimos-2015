@@ -3,8 +3,12 @@
 /* sleek */
 
 	.sleek {
+	
 		background-color : #111;
 		color : #fff;
+		
+		h1, h2, h3, h4, h5, h6 { color : yellow; }
+		
 	}
 
 /* fresh */
@@ -25,7 +29,23 @@
 /* biz */	
 
 	.biz {
+	
 		background-color : #fff;
 		color : #000;
 		font-family : "Open Sans", Helvetica, Arial;					
+		
+		h1, h2, h3, h4, h5, h6 { color : blue; }
+		
 	}
+	
+/* western */	
+
+	.biz {
+	
+		background-color : tan;
+		color : sienna;
+		font-family : "Open Sans", Helvetica, Arial;					
+		
+		h1, h2, h3, h4, h5, h6 { color : sienna; }
+		
+	}	
