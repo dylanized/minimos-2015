@@ -104,6 +104,13 @@
 	.pad-bottom-40		{ padding-bottom : 40px !important; }
 	.pad-bottom-50		{ padding-bottom : 50px !important; }
 	
+	.pad-v-5			{ padding-top : 5px !important; padding-bottom : 5px !important; }
+	.pad-v-10			{ padding-top : 10px !important; padding-bottom : 10px !important; }
+	.pad-v-20			{ padding-top : 20px !important; padding-bottom : 20px !important; }
+	.pad-v-30			{ padding-top : 30px !important; padding-bottom : 30px !important; }
+	.pad-v-40			{ padding-top : 40px !important; padding-bottom : 40px !important; }
+	.pad-v-50			{ padding-top : 50px !important; padding-bottom : 50px !important; }	
+	
 /* borders */
 
 	.no-border			{ border : none !important; }	
