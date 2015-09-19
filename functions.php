@@ -7,13 +7,15 @@
 		// libraries
 		wp_enqueue_style("minimos-normalize", get_template_directory_uri() . "/lib/css/normalize.css");
 		wp_enqueue_style("minimos-grid", get_template_directory_uri() . "/lib/css/simplegrid.css");			
+		wp_enqueue_style("minimos-utility", get_template_directory_uri() . "/css/utility.css");
+		wp_enqueue_style("minimos-colors", get_template_directory_uri() . "/css/colors.css");			
 		
 		// theme css
 		wp_enqueue_style("theme-core", get_template_directory_uri() . "/css/core.css");			
-		wp_enqueue_style("theme-core", get_template_directory_uri() . "/css/skins.css");			
-		wp_enqueue_style("theme-utility", get_template_directory_uri() . "/css/utility.css");
-		wp_enqueue_style("theme-colors", get_template_directory_uri() . "/css/colors.css");			
+		wp_enqueue_style("theme-skins", get_template_directory_uri() . "/css/skins.css");			
 		wp_enqueue_style("theme-media", get_template_directory_uri() . "/css/media.css");			
+		
+		// site overrides
 		wp_enqueue_style("theme-overrides", get_template_directory_uri() . "/style.css");					
 	
 	}

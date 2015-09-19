@@ -16,11 +16,27 @@
 	a:hover,
 	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }	
 	
-/* layout tweaks */	
+/* layout helpers */	
 	
-	.row.pad			{ padding : 30px 0 30px 0 !important; }
+	.row {
+		width : 100%;
+		clear : both;
+		padding : 0;		
+	}
 	
-	body .container 	{ max-width : 960px; }
+	.row.pad { padding : 30px 0 30px 0 !important; }		
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}	
+		
+	.container {
+		max-width : 960px;
+		margin: 0 auto;
+		padding : 0 1em 0 1em;
+	}	
 	
 /* default content */	
 	
