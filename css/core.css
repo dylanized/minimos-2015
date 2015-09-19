@@ -225,6 +225,11 @@
 		.border-left		{ border-left : 1px solid #e8e8e8; }
 		
 		.rounded 			{ border-radius : 10px; }
+		.indent 			{ margin-left : 30px !important; }
+		
+		.short				{ width : 70px; }
+		.medium				{ width : 150px; }
+		.long				{ width : 220px; }
 		
 /* site footer */
 
