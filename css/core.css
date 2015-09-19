@@ -18,9 +18,9 @@
 	
 /* layout tweaks */	
 	
-	.row.pad		{ padding : 30px 0 30px 0 !important; }
+	.row.pad			{ padding : 30px 0 30px 0 !important; }
 	
-	body .container { max-width : 960px; }
+	body .container 	{ max-width : 960px; }
 	
 /* default content */	
 	
@@ -200,7 +200,7 @@
 	.margin-v			{ margin-top : 20px !important; margin-bottom : 20px !important; }
 
 	.pad				{ padding : 20px !important; }
-	.pad-bottom			{ padding-top : 20px !important; }
+	.pad-top			{ padding-top : 20px !important; }
 	.pad-bottom			{ padding-bottom : 20px !important; }
 	
 	.border				{ border : 1px solid #e8e8e8; }	
