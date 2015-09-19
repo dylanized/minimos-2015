@@ -234,10 +234,10 @@
 	
 /* custom colors */
 
-	.color-lite				{ color : #ccc; }	
+	.color-lite				{ color : #999; }	
 	
 	.color-lite a:link,
-	.color-lite a:visited 	{ color : #ccc; text-decoration : none; }
+	.color-lite a:visited 	{ color : #999; text-decoration : none; }
 	
 	.color-lite a:hover,
 	.color-lite a:active 	{ color : red; text-decoration : underline; }
