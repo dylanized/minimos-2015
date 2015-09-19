@@ -33,8 +33,9 @@
 	.width-50 			{ width : 50% !important; }
 	.width-75 			{ width : 75% !important; }
 			
-	.width-100 			{ max-width : 100% !important; width : 100% !important; }
-	.height-100 		{ height : 100% !important; }	
+	.width-100 			{ width : 100% !important; }
+	.max-100			{ max-width : 100% !important; }
+	.height-100 		{ height : 100% !important; }
 	
 	.float-left			{ float : left !important; }	
 	.float-right		{ float : right !important; }
@@ -44,7 +45,7 @@
 	.clear-left 		{ clear : left !important; }
 	.clear-right 		{ clear : right !important; }
 
-	.centered 			{ float : none !important; margin-left : auto !important; margin-right : auto !important; }
+	.centered 			{float : none !important; margin-left : auto !important; margin-right : auto !important; }
 	
 	.valign-top			{ vertical-aign : top !important; }	
 	.valign-bottom		{ vertical-aign : top !important; }	
@@ -91,7 +92,6 @@
 	.pad-top-40			{ padding-top : 40px !important; }
 	.pad-top-50			{ padding-top : 50px !important; }
 	
-	.pad-bottom			{ padding : 20px !important; }
 	.pad-bottom-5		{ padding-bottom : 5px !important; }
 	.pad-bottom-10		{ padding-bottom : 10px !important; }
 	.pad-bottom-20		{ padding-bottom : 20px !important; }
@@ -110,28 +110,22 @@
 
 	.no-border			{ border : none !important; }	
 	
-	.border				{ border : 1px solid #e8e8e8; }
-	.border-top			{ border-top : 1px solid #e8e8e8; }
-	.border-right		{ border-right : 1px solid #e8e8e8; }
-	.border-bottom		{ border-bottom : 1px solid #e8e8e8; }
-	.border-left		{ border-left : 1px solid #e8e8e8; }
-	
+	.border-1			{ border-width : 1px !important; }
 	.border-2			{ border-width : 2px !important; }
 	.border-3			{ border-width : 3px !important; }
 	.border-4			{ border-width : 4px !important; }
 	.border-5			{ border-width : 5px !important; }
 	.border-10			{ border-width : 10px !important; }
 	
-/* misc */	
+/* rounded corners */
 	
-	.img-rounded 		{ border-radius: 6px !important; }
-	.img-circle 		{ border-radius: 50% !important; }
-	.img-thumbnail  	{ display: inline-block; padding: 4px; background-color: #fff; border: 1px solid #ddd; }
-	
-	.rounded 			{ border-radius : 10px; }
 	.rounded-5 			{ border-radius : 5px; }
 	.rounded-10 		{ border-radius : 10px; }
 	.rounded-15 		{ border-radius : 15px; }
 	.rounded-20 		{ border-radius : 20px; }
 	
+/* misc */		
+	
 	.overlay			{ width : 100%; height : 100%; background-color : rgba(0,0,0,.65); }
+	
+	.img-circle 		{ border-radius: 50% !important; }
