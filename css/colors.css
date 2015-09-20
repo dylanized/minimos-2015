@@ -1,6 +1,6 @@
 /* MINIMOS COLOR CLASSES */
 
-	/* web colors - color, bgd, border */
+	/* web colors - color, bgd, border, hover */
 	
 		.color-red 		{ color : red; }
 		.color-maroon 	{ color : maroon; }
@@ -40,6 +40,19 @@
 		.border-navy 	{ border-color : navy; }
 		.border-fuchsia { border-color : fuchsia; }
 		.border-purple 	{ border-color : purple; }
+			
+		.hover-red:hover 		{ color : red !important; }
+		.hover-maroon:hover 	{ color : maroon !important; }
+		.hover-yellow:hover 	{ color : yellow !important; }
+		.hover-olive:hover 		{ color : olive !important; }
+		.hover-lime:hover 		{ color : lime !important; }
+		.hover-green:hover 		{ color : green !important; }
+		.hover-aqua:hover 		{ color : aqua !important; }
+		.hover-teal:hover 		{ color : teal !important; }
+		.hover-blue:hover 		{ color : blue !important; }
+		.hover-navy:hover 		{ color : navy !important; }
+		.hover-fuchsia:hover	{ color : fuchsia !important; }
+		.hover-purple:hover 	{ color : purple !important; }		
 	
 	/* grays - color, bgd, border */
 	
@@ -94,7 +107,7 @@
 		.border-eee 	{ border-color : #eee; }
 		.border-fff 	{ border-color : #fff; }
 				
-	/* x11 colors - color, bgd, border */
+	/* x11 colors - color, bgd, border, hover */
 	
 		.color-orange			{ color : orange; }
 		.color-orange-red		{ color : orange-red; }
@@ -143,3 +156,19 @@
 		.border-sienna 			{ border-color : sienna; }
 		.border-peru 			{ border-color : peru; }
 		.border-tan 			{ border-color : tan; }		
+		
+		.hover-orange:hover			{ color : orange !important; }
+		.hover-orange-red:hover		{ color : orange-red !important; }
+		.hover-dark-orange:hover	{ color : dark-orange !important; }
+		.hover-brown:hover 			{ color : brown !important; }
+		.hover-cyan:hover 			{ color : cyan !important; }		
+		.hover-cornflower:hover 	{ color : cornflower !important; }		
+		.hover-midnight-blue:hover 	{ color : cyan !important; }		
+		.hover-slate-gray:hover 	{ color : slate-gray !important; }		
+		.hover-white-smoke:hover 	{ color : white-smoke !important; }		
+		.hover-tomato:hover 		{ color : tomato !important; }		
+		.hover-gold:hover 			{ color : gold !important; }		
+		.hover-goldenrod:hover 		{ color : goldenrod !important; }		
+		.hover-sienna:hover 		{ color : sienna !important; }		
+		.hover-peru:hover 			{ color : peru !important; }		
+		.hover-tan:hover 			{ color : tan !important; }			
