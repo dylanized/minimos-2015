@@ -2,8 +2,13 @@
 
 	<div class="container">
 
-		<p class="no-margin"><a href="http://twitter.com/dylanized">by @dylanized</a></p>
-		
+		<p class="float-right text-right font-20">
+			<a href="http://twitter.com/minimosWP"><i class="fa fa-twitter"></i></a>&nbsp;
+			<a href="http://github.com/dylanized/minimos-wp"><i class="fa fa-github"></i></a>
+		</p>
+
+		<p><a href="http://minimos.net">built with Minimos</a></p>
+				
 	</div>
 
 </footer>
