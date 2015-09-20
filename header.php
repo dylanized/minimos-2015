@@ -36,7 +36,7 @@
 
 	<div class="container grid">
 	
-		<div class="col-6-12 header-nameplate">
+		<div class="col-5-12 header-nameplate">
 	
 			<?php if (is_home() || is_front_page()) { ?>
 				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
@@ -47,9 +47,12 @@
 						
 		</div>
 		
-		<nav class="col-6-12 header-nav">
+		<nav class="col-7-12 header-nav">
 			
-			<?php wp_nav_menu(); ?>		
+			<?php wp_nav_menu(array(
+				'menu' => 'Header Nav',
+				'fallback_cb' => false
+			)); ?>		
 			
 		</nav>
 
