@@ -2,144 +2,144 @@
 
 	/* web colors - color, bgd, border */
 	
-		.color-red 		{ color : red !important }
-		.color-maroon 	{ color : maroon !important }
-		.color-yellow 	{ color : yellow !important }
-		.color-olive 	{ color : olive !important }
-		.color-lime 	{ color : lime !important }
-		.color-green 	{ color : green !important }
-		.color-aqua 	{ color : aqua !important }
-		.color-teal 	{ color : teal !important }
-		.color-blue 	{ color : blue !important }
-		.color-navy 	{ color : navy !important }
-		.color-fuchsia 	{ color : fuchsia !important }
-		.color-purple 	{ color : purple !important }
+		.color-red 		{ color : red }
+		.color-maroon 	{ color : maroon }
+		.color-yellow 	{ color : yellow }
+		.color-olive 	{ color : olive }
+		.color-lime 	{ color : lime }
+		.color-green 	{ color : green }
+		.color-aqua 	{ color : aqua }
+		.color-teal 	{ color : teal }
+		.color-blue 	{ color : blue }
+		.color-navy 	{ color : navy }
+		.color-fuchsia 	{ color : fuchsia }
+		.color-purple 	{ color : purple }
 		
-		.bgd-red 		{ background-color : red !important }
-		.bgd-maroon 	{ background-color : maroon !important }
-		.bgd-yellow 	{ background-color : yellow !important }
-		.bgd-olive 		{ background-color : olive !important }
-		.bgd-lime 		{ background-color : lime !important }
-		.bgd-green 		{ background-color : green !important }
-		.bgd-aqua 		{ background-color : aqua !important }
-		.bgd-teal 		{ background-color : teal !important }
-		.bgd-blue 		{ background-color : blue !important }
-		.bgd-navy 		{ background-color : navy !important }
-		.bgd-fuchsia 	{ background-color : fuchsia !important }
-		.bgd-purple 	{ background-color : purple !important }
+		.bgd-red 		{ background-color : red }
+		.bgd-maroon 	{ background-color : maroon }
+		.bgd-yellow 	{ background-color : yellow }
+		.bgd-olive 		{ background-color : olive }
+		.bgd-lime 		{ background-color : lime }
+		.bgd-green 		{ background-color : green }
+		.bgd-aqua 		{ background-color : aqua }
+		.bgd-teal 		{ background-color : teal }
+		.bgd-blue 		{ background-color : blue }
+		.bgd-navy 		{ background-color : navy }
+		.bgd-fuchsia 	{ background-color : fuchsia }
+		.bgd-purple 	{ background-color : purple }
 		
-		.border-red 	{ border-color : red !important }
-		.border-maroon 	{ border-color : maroon !important }
-		.border-yellow 	{ border-color : yellow !important }
-		.border-olive 	{ border-color : olive !important }
-		.border-lime 	{ border-color : lime !important }
-		.border-green 	{ border-color : green !important }
-		.border-aqua 	{ border-color : aqua !important }
-		.border-teal 	{ border-color : teal !important }
-		.border-blue 	{ border-color : blue !important }
-		.border-navy 	{ border-color : navy !important }
-		.border-fuchsia { border-color : fuchsia !important }
-		.border-purple 	{ border-color : purple !important }
+		.border-red 	{ border-color : red }
+		.border-maroon 	{ border-color : maroon }
+		.border-yellow 	{ border-color : yellow }
+		.border-olive 	{ border-color : olive }
+		.border-lime 	{ border-color : lime }
+		.border-green 	{ border-color : green }
+		.border-aqua 	{ border-color : aqua }
+		.border-teal 	{ border-color : teal }
+		.border-blue 	{ border-color : blue }
+		.border-navy 	{ border-color : navy }
+		.border-fuchsia { border-color : fuchsia }
+		.border-purple 	{ border-color : purple }
 	
 	/* grays - color, bgd, border */
 	
-		.color-000 		{ color : #000 !important }
-		.color-111 		{ color : #111 !important }
-		.color-222 		{ color : #222 !important }
-		.color-333 		{ color : #333 !important }
-		.color-444 		{ color : #444 !important }
-		.color-555 		{ color : #555 !important }
-		.color-666 		{ color : #666 !important }
-		.color-777 		{ color : #777 !important }
-		.color-888 		{ color : #888 !important }
-		.color-999 		{ color : #999 !important }
-		.color-aaa 		{ color : #aaa !important }
-		.color-bbb 		{ color : #bbb !important }
-		.color-ccc 		{ color : #ccc !important }
-		.color-ddd 		{ color : #ddd !important }
-		.color-eee 		{ color : #eee !important }
-		.color-fff 		{ color : #fff !important }
+		.color-000 		{ color : #000 }
+		.color-111 		{ color : #111 }
+		.color-222 		{ color : #222 }
+		.color-333 		{ color : #333 }
+		.color-444 		{ color : #444 }
+		.color-555 		{ color : #555 }
+		.color-666 		{ color : #666 }
+		.color-777 		{ color : #777 }
+		.color-888 		{ color : #888 }
+		.color-999 		{ color : #999 }
+		.color-aaa 		{ color : #aaa }
+		.color-bbb 		{ color : #bbb }
+		.color-ccc 		{ color : #ccc }
+		.color-ddd 		{ color : #ddd }
+		.color-eee 		{ color : #eee }
+		.color-fff 		{ color : #fff }
 		
-		.bgd-000 		{ background-color : #000 !important }
-		.bgd-111 		{ background-color : #111 !important }
-		.bgd-222 		{ background-color : #222 !important }
-		.bgd-333 		{ background-color : #333 !important }
-		.bgd-444 		{ background-color : #444 !important }
-		.bgd-555 		{ background-color : #555 !important }
-		.bgd-666		{ background-color : #666 !important }
-		.bgd-777		{ background-color : #777 !important }
-		.bgd-888 		{ background-color : #888 !important }
-		.bgd-999 		{ background-color : #999 !important }
-		.bgd-aaa 		{ background-color : #aaa !important }
-		.bgd-bbb 		{ background-color : #bbb !important }
-		.bgd-ccc 		{ background-color : #ccc !important }
-		.bgd-ddd 		{ background-color : #ddd !important }
-		.bgd-eee 		{ background-color : #eee !important }
-		.bgd-fff 		{ background-color : #fff !important }	
+		.bgd-000 		{ background-color : #000 }
+		.bgd-111 		{ background-color : #111 }
+		.bgd-222 		{ background-color : #222 }
+		.bgd-333 		{ background-color : #333 }
+		.bgd-444 		{ background-color : #444 }
+		.bgd-555 		{ background-color : #555 }
+		.bgd-666		{ background-color : #666 }
+		.bgd-777		{ background-color : #777 }
+		.bgd-888 		{ background-color : #888 }
+		.bgd-999 		{ background-color : #999 }
+		.bgd-aaa 		{ background-color : #aaa }
+		.bgd-bbb 		{ background-color : #bbb }
+		.bgd-ccc 		{ background-color : #ccc }
+		.bgd-ddd 		{ background-color : #ddd }
+		.bgd-eee 		{ background-color : #eee }
+		.bgd-fff 		{ background-color : #fff }	
 		
-		.border-000 	{ border-color : #000 !important }
-		.border-111 	{ border-color : #111 !important }
-		.border-222 	{ border-color : #222 !important }
-		.border-333 	{ border-color : #333 !important }
-		.border-444 	{ border-color : #444 !important }
-		.border-555 	{ border-color : #555 !important }
-		.border-666 	{ border-color : #666 !important }
-		.border-777 	{ border-color : #777 !important }
-		.border-888 	{ border-color : #888 !important }
-		.border-999 	{ border-color : #999 !important }
-		.border-aaa 	{ border-color : #aaa !important }
-		.border-bbb 	{ border-color : #bbb !important }
-		.border-ccc 	{ border-color : #ccc !important }
-		.border-ddd 	{ border-color : #ddd !important }
-		.border-eee 	{ border-color : #eee !important }
-		.border-fff 	{ border-color : #fff !important }
+		.border-000 	{ border-color : #000 }
+		.border-111 	{ border-color : #111 }
+		.border-222 	{ border-color : #222 }
+		.border-333 	{ border-color : #333 }
+		.border-444 	{ border-color : #444 }
+		.border-555 	{ border-color : #555 }
+		.border-666 	{ border-color : #666 }
+		.border-777 	{ border-color : #777 }
+		.border-888 	{ border-color : #888 }
+		.border-999 	{ border-color : #999 }
+		.border-aaa 	{ border-color : #aaa }
+		.border-bbb 	{ border-color : #bbb }
+		.border-ccc 	{ border-color : #ccc }
+		.border-ddd 	{ border-color : #ddd }
+		.border-eee 	{ border-color : #eee }
+		.border-fff 	{ border-color : #fff }
 				
 	/* x11 colors - color, bgd, border */
 	
-		.color-orange			{ color : orange !important }
-		.color-orange-red		{ color : orange-red !important }
-		.color-dark-orange		{ color : dark-orange !important }
-		.color-brown 			{ color : brown !important }
-		.color-cyan 			{ color : cyan !important }		
-		.color-cornflower 		{ color : cornflower !important }		
-		.color-midnight-blue 	{ color : cyan !important }		
-		.color-slate-gray 		{ color : slate-gray !important }		
-		.color-white-smoke 		{ color : white-smoke !important }		
-		.color-tomato 			{ color : tomato !important }		
-		.color-gold 			{ color : gold !important }		
-		.color-goldenrod 		{ color : goldenrod !important }		
-		.color-sienna 			{ color : sienna !important }		
-		.color-peru 			{ color : peru !important }		
-		.color-tan 				{ color : tan !important }		
+		.color-orange			{ color : orange }
+		.color-orange-red		{ color : orange-red }
+		.color-dark-orange		{ color : dark-orange }
+		.color-brown 			{ color : brown }
+		.color-cyan 			{ color : cyan }		
+		.color-cornflower 		{ color : cornflower }		
+		.color-midnight-blue 	{ color : cyan }		
+		.color-slate-gray 		{ color : slate-gray }		
+		.color-white-smoke 		{ color : white-smoke }		
+		.color-tomato 			{ color : tomato }		
+		.color-gold 			{ color : gold }		
+		.color-goldenrod 		{ color : goldenrod }		
+		.color-sienna 			{ color : sienna }		
+		.color-peru 			{ color : peru }		
+		.color-tan 				{ color : tan }		
 		
-		.bgd-orange 			{ background-color : orange !important }
-		.bgd-orange-red 		{ background-color : orange-red !important }
-		.bgd-dark-orange 		{ background-color : dark-orange !important }
-		.bgd-brown 				{ background-color : brown !important }
-		.bgd-cyan 				{ background-color : cyan !important }
-		.bgd-cornflower 		{ background-color : cornflower !important }
-		.bgd-midnight-blue 		{ background-color : midnight-blue !important }
-		.bgd-slate-gray 		{ background-color : slate-gray !important }
-		.bgd-white-smoke 		{ background-color : white-smoke !important }
-		.bgd-tomato 			{ background-color : tomato !important }
-		.bgd-gold 				{ background-color : gold !important }
-		.bgd-goldenrod 			{ background-color : goldenrod !important }
-		.bgd-sienna 			{ background-color : sienna !important }
-		.bgd-peru 				{ background-color : peru !important }
-		.bgd-tan 				{ background-color : tan !important }
+		.bgd-orange 			{ background-color : orange }
+		.bgd-orange-red 		{ background-color : orange-red }
+		.bgd-dark-orange 		{ background-color : dark-orange }
+		.bgd-brown 				{ background-color : brown }
+		.bgd-cyan 				{ background-color : cyan }
+		.bgd-cornflower 		{ background-color : cornflower }
+		.bgd-midnight-blue 		{ background-color : midnight-blue }
+		.bgd-slate-gray 		{ background-color : slate-gray }
+		.bgd-white-smoke 		{ background-color : white-smoke }
+		.bgd-tomato 			{ background-color : tomato }
+		.bgd-gold 				{ background-color : gold }
+		.bgd-goldenrod 			{ background-color : goldenrod }
+		.bgd-sienna 			{ background-color : sienna }
+		.bgd-peru 				{ background-color : peru }
+		.bgd-tan 				{ background-color : tan }
 
-		.border-orange 			{ border-color : orange !important }
-		.border-orange-red 		{ border-color : orange-red !important }
-		.border-dark-orange 	{ border-color : dark-orange !important }
-		.border-brown 			{ border-color : brown !important }
-		.border-cyan 			{ border-color : cyan !important }
-		.border-cornflower 		{ border-color : cornflower !important }
-		.border-midnight-blue 	{ border-color : midnight-blue !important }
-		.border-slate-gray 		{ border-color : slate-gray !important }
-		.border-white-smoke 	{ border-color : white-smoke !important }
-		.border-tomato 			{ border-color : tomato !important }
-		.border-gold 			{ border-color : gold !important }
-		.border-goldenrod 		{ border-color : goldenrod !important }
-		.border-sienna 			{ border-color : sienna !important }
-		.border-peru 			{ border-color : peru !important }
-		.border-tan 			{ border-color : tan !important }		
+		.border-orange 			{ border-color : orange }
+		.border-orange-red 		{ border-color : orange-red }
+		.border-dark-orange 	{ border-color : dark-orange }
+		.border-brown 			{ border-color : brown }
+		.border-cyan 			{ border-color : cyan }
+		.border-cornflower 		{ border-color : cornflower }
+		.border-midnight-blue 	{ border-color : midnight-blue }
+		.border-slate-gray 		{ border-color : slate-gray }
+		.border-white-smoke 	{ border-color : white-smoke }
+		.border-tomato 			{ border-color : tomato }
+		.border-gold 			{ border-color : gold }
+		.border-goldenrod 		{ border-color : goldenrod }
+		.border-sienna 			{ border-color : sienna }
+		.border-peru 			{ border-color : peru }
+		.border-tan 			{ border-color : tan }		

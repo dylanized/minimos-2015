@@ -24,5 +24,10 @@
 
 /* small devices */
 @media only screen and (max-width: 480px) {
+
+	.footer p {
+		float : none;
+		text-align : center;
+	}
 	
 }
