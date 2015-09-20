@@ -145,6 +145,8 @@
 		list-style-type : none;
 	}
 	
+	.home .primary-nav { margin-top : 35px; }
+	
 	.primary-nav li {
 		display : inline-block;
 		margin-left : 25px;	

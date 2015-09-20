@@ -34,24 +34,29 @@
 
 <header class="row header pad border-bottom color-lite">
 
-	<div class="container">
+	<div class="container grid">
 	
-		<?php if (is_home() || is_front_page()) { ?>
-			<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
-		<?php } else { ?>
-			<a class="logo" href="/"><?php bloginfo('name'); ?></a>
-		<?php } ?>
+		<div class="col-6-12">
+	
+			<?php if (is_home() || is_front_page()) { ?>
+				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
+				<h3><?php bloginfo('description'); ?></h3>			
+			<?php } else { ?>
+				<a class="logo" href="/"><?php bloginfo('name'); ?></a>
+			<?php } ?>
+						
+		</div>
 		
-		<nav>
-			<ul class="primary-nav float-right font-20">
+		<nav class="col-6-12">
+		
+			<ul class="primary-nav float-right font-20 margin-0">
 				<li><a href="/about/">About</a></li>
 				<li><a href="/demo/">Demo</a></li>
 				<li><a href="https://github.com/dylanized/minimos-wp/archive/master.zip">Download</a></li>				
 			</ul>		
+			
 		</nav>
 
-		<h3 class="float-left"><?php bloginfo('description'); ?></h3>
-	
 	</div>
 
 </header>
