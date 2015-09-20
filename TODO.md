@@ -1,8 +1,11 @@
 # Minimos WP - Todos
 
-- add post meta to post
-- nav menu
+- primary nav fallback
+- get blog page styled
+- add post meta
+- footer widget override
 - break out loop into an include
+- fix x11 colors
 - comments
 - alt styling for nav menu
 - mobile nav(s)
