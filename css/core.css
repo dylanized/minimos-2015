@@ -140,6 +140,17 @@
 		.button:active		{ color : #fff; background-color : red; }	
 		
 /* site header */
+	
+	.primary-nav {
+		list-style-type : none;
+	}
+	
+	.primary-nav li {
+		display : inline-block;
+		margin-left : 25px;	
+	}
+	
+	.primary-nav li.current { text-decoration : underline; }
 
 /* site footer */
 	

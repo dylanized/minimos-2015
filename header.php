@@ -37,11 +37,20 @@
 	<div class="container">
 	
 		<?php if (is_home() || is_front_page()) { ?>
-			<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>
-			<h3 class="em"><?php bloginfo('description'); ?></h3>
+			<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
 		<?php } else { ?>
 			<a class="logo" href="/"><?php bloginfo('name'); ?></a>
 		<?php } ?>
+		
+		<nav>
+			<ul class="primary-nav float-right font-20">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/demo/">Demo</a></li>
+				<li><a href="https://github.com/dylanized/minimos-wp/archive/master.zip">Download</a></li>				
+			</ul>		
+		</nav>
+
+		<h3 class="float-left"><?php bloginfo('description'); ?></h3>
 	
 	</div>
 
