@@ -36,7 +36,7 @@
 
 	<div class="container grid">
 	
-		<div class="col-6-12">
+		<div class="col-6-12 header-nameplate">
 	
 			<?php if (is_home() || is_front_page()) { ?>
 				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
@@ -47,13 +47,9 @@
 						
 		</div>
 		
-		<nav class="col-6-12">
-		
-			<ul class="primary-nav float-right font-20 margin-0">
-				<li><a href="/about/">About</a></li>
-				<li><a href="/demo/">Demo</a></li>
-				<li><a href="https://github.com/dylanized/minimos-wp/archive/master.zip">Download</a></li>				
-			</ul>		
+		<nav class="col-6-12 header-nav">
+			
+			<?php wp_nav_menu(); ?>		
 			
 		</nav>
 

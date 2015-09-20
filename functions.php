@@ -1,5 +1,9 @@
 <?php
 
+// config
+
+	add_theme_support( 'menus' );
+
 // styles
 
 	function minimos_load_styles() {

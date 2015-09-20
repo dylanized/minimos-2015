@@ -141,18 +141,21 @@
 		
 /* site header */
 	
-	.primary-nav {
+	.header .menu {
 		list-style-type : none;
+		float : right;
+		font-size : 20px;
+		margin : 0;
 	}
 	
-	.home .primary-nav { margin-top : 35px; }
+	.home .header .menu { margin-top : 35px; }
 	
-	.primary-nav li {
+	.header li {
 		display : inline-block;
 		margin-left : 25px;	
 	}
 	
-	.primary-nav li.current { text-decoration : underline; }
+	.header li.current { text-decoration : underline; }
 
 /* site footer */
 	

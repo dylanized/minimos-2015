@@ -7,7 +7,7 @@
 			<a class="hover-green" href="http://github.com/dylanized/minimos-wp"><i class="fa fa-github"></i></a>
 		</p>
 
-		<p><a href="http://minimos.net">built with Minimos</a></p>
+		<p><a href="http://minimos.net"><em>built with Minimos</em></a></p>
 				
 	</div>
 
