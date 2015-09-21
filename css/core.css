@@ -63,9 +63,9 @@
 		h6 		{ font-size : 10px; }
 		
 		h1 a:link, 
-		h1 a:visited 	{ color : #ccc; }
+		h1 a:visited 	{ color : #ccc; text-decoration : none; }
 		h1 a:hover,
-		h1 a:active 	{ color : #999; }
+		h1 a:active 	{ color : #000; text-decoration : underline; }
 	
 	/* content */
 	
@@ -89,7 +89,7 @@
 		}
 		
 		small {
-			font-size : 10px;
+			font-size : 12px;
 		}
 		
 		blockquote {
@@ -164,7 +164,7 @@
 	/* posts */
 	
 		.post {
-			margin-bottom : 60px;
+			
 		}	
 		
 	/* images */
