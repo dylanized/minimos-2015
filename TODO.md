@@ -1,8 +1,7 @@
 # Minimos WP - Todos
 
-- primary nav fallback
-- get blog page styled
-- add post meta
+- >> get blog page styled
+- >> add post meta
 - footer widget override
 - break out loop into an include
 - fix x11 colors
