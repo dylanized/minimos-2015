@@ -122,22 +122,22 @@
 		input[type=submit],
 		button,
 		.button {
-			background : blue;
+			background-color : #555;
 			color : #fff;
 			padding : 10px;
 			display : inline-block;
 		}
 		
-		.button:link 		{ color : #fff; }
-		.button:visited 	{ color : #fff; }
+		.button:link,
+		.button:visited 	{ color : #fff; text-decoration : none; }
 		
 		input[type=submit]:hover,
 		button:hover,
-		.button:hover 		{ color : #fff; background-color : red; }
+		.button:hover 		{ color : #fff; text-decoration : underline; }
 		
 		input[type=submit]:active,
 		button:active,
-		.button:active		{ color : #fff; background-color : red; }	
+		.button:active		{ color : #fff; text-decoration : underline; }	
 		
 /* site header */
 	
