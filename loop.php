@@ -2,17 +2,21 @@
 	
 	<?php while (have_posts()) : the_post(); ?>
 
-		<article <?php post_class("margin-bottom-50") ?> id="post-<?php the_ID(); ?>">
+		<article <?php post_class("padding-bottom-30 margin-bottom-30 border-bottom") ?> id="post-<?php the_ID(); ?>">
 
 			<header class="post-header">
 			
 				<?php if (is_singular()) { ?>
-					<h1 class="margin-bottom-10"><?php the_title(); ?></h1>
+					<h1 class="post-title margin-bottom-10"><?php the_title(); ?></h1>
 				<?php } else { ?>
-					<h1 class="margin-bottom-10"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+					<h1 class="post-title margin-bottom-10"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				<?php } ?>
 				
-				<!-- meta goes here -->
+				<?php if (!is_page()) { ?>
+				
+					<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>
+					
+				<?php } ?>
 				
 			</header>
 			
@@ -24,9 +28,9 @@
 			
 			<?php if (!is_page()) { ?>
 			
-				<footer class="post-footer margin-top--30 color-lite">
+				<footer class="post-footer color-lite">
 				
-					<p><small><?php the_time('F jS, Y') ?> | <?php the_category(', ') ?></small></p>
+					<p><small><?php the_time('F jS, Y'); ?> | <?php the_category(', '); ?> | <?php the_tags(); ?></small></p>
 				
 				</footer>
 				
