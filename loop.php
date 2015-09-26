@@ -7,9 +7,9 @@
 			<header class="post-header">
 			
 				<?php if (is_singular()) { ?>
-					<h1 class="post-title margin-bottom-10"><?php the_title(); ?></h1>
+					<h1 class="post-title margin-0"><?php the_title(); ?></h1>
 				<?php } else { ?>
-					<h1 class="post-title margin-bottom-10"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+					<h1 class="post-title margin-0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				<?php } ?>
 				
 				<?php if (!is_page()) { ?>
