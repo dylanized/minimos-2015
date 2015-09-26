@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
-	<title><?php wp_title('&laquo;', true, 'right'); ?></title>
+	<?php if (is_front_page()) { ?>
+		<title><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
+	<?php } else { ?>
+		<title><?php wp_title(''); ?> - <?php bloginfo('name'); ?></title>	
+	<?php } ?>
 	
 	<!-- encoding -->
 	<meta charset="utf-8">
@@ -38,7 +42,7 @@
 	
 		<div class="col-5-12 header-nameplate">
 	
-			<?php if (is_home() || is_front_page()) { ?>
+			<?php if (is_front_page()) { ?>
 				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
 				<h3><?php bloginfo('description'); ?></h3>			
 			<?php } else { ?>
