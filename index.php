@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="row pad-v-60 content" role="main">
+<main class="row pad content" role="main">
 
 	<div class="container">
 	

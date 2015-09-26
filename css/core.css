@@ -139,7 +139,7 @@
 		button:active,
 		.button:active		{ color : #fff; text-decoration : underline; }	
 		
-/* site header */
+/* header */
 	
 	.header .menu {
 		list-style-type : none;
@@ -156,14 +156,20 @@
 	}
 	
 	.header li.current { text-decoration : underline; }
-
-/* site footer */
 	
-/* essential components */
+/* content */
 
-	/* homepage */
+	.row.content { padding : 60px 0 0px 0; }	
 
-		.home.page .row.content { padding : 30px 0 0px 0; }		
+	.home.page .row.content { padding : 30px 0 0px 0; }		
+
+/* footer */
+
+	.footer {
+	
+	}
+	
+/* essential components */	
 
 	/* posts */
 	
