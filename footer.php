@@ -4,7 +4,7 @@
 
 		<p class="float-right text-right font-25">
 			<a class="hover-blue" href="http://twitter.com/minimosWP"><i class="fa fa-twitter"></i></a>&nbsp;
-			<a class="hover-green" href="http://github.com/dylanized/minimos-wp"><i class="fa fa-github"></i></a>
+			<a class="hover-green" href="http://github.com/dylanized/minimos"><i class="fa fa-github"></i></a>
 		</p>
 		
 		<?php if (is_front_page()) { ?>
