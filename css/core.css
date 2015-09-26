@@ -133,8 +133,7 @@
 		
 		input[type=submit]:hover,
 		button:hover,
-		.button:hover 		{ color : #fff; text-decoration : underline; }
-		
+		.button:hover,		
 		input[type=submit]:active,
 		button:active,
 		.button:active		{ color : #fff; text-decoration : underline; }	
