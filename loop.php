@@ -2,7 +2,7 @@
 	
 	<?php while (have_posts()) : the_post(); ?>
 
-		<article <?php post_class("padding-bottom-30 margin-bottom-30 border-bottom") ?> id="post-<?php the_ID(); ?>">
+		<article <?php post_class("margin-bottom-80") ?> id="post-<?php the_ID(); ?>">
 
 			<header class="post-header">
 			
