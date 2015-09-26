@@ -161,7 +161,7 @@
 
 	.row.content { padding : 60px 0 0px 0; }	
 
-	.home.page .row.content { padding : 30px 0 0px 0; }		
+	.home.page .row.content { padding : 0; }		
 
 /* footer */
 
@@ -179,7 +179,7 @@
 		
 		.post-header {
 			margin-bottom : 40px;
-		}	
+		}
 		
 	/* images */
 				
@@ -240,6 +240,8 @@
 		}	
 		
 /* custom utilities */
+
+	.lead					{ font-size : 25px; margin-bottom : 35px; }
 	
 	.margin-top				{ margin : 20px; }
 	.margin-bottom			{ margin : 20px; }
