@@ -144,9 +144,12 @@
 		list-style-type : none;
 		float : right;
 		font-size : 20px;
+		margin-bottom : 0;
 	}
 	
-	.home .header .menu { margin-top : 35px; }
+	.home .header .menu {
+		margin-top : 35px;
+	}
 	
 	.header li {
 		display : inline-block;
