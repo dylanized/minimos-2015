@@ -232,6 +232,29 @@
 			display : inline; 
 		}		
 		
+	/* tables */
+	
+		.pretty-table {
+			border-collapse : collapse;
+			border : 1px solid #555;
+			margin : 0 0 20px 0;
+		}		
+
+		.pretty-table th,
+		.pretty-table td {
+			padding : 10px;
+			border : 1px solid #555;
+		}		
+
+		.pretty-table th {
+			font-weight : bold;
+			font-size : 12px;
+			background-color : #e8e8e8;
+		}	
+		
+		.pretty-table td {
+		}			
+		
 	/* cards */
 	
 		.card {
