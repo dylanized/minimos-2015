@@ -4,7 +4,7 @@
 
 		<article <?php post_class("") ?> id="post-<?php the_ID(); ?>">
 
-			<?php if (!is_front_page()) { ?>
+			<?php if (get_the_title() != "") { ?>
 				
 				<header class="post-header">
 				
@@ -14,10 +14,8 @@
 						<h1 class="post-title margin-0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 					<?php } ?>
 					
-					<?php if (!is_page()) { ?>
-					
-						<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>
-						
+					<?php if (!is_page()) { ?>					
+						<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>						
 					<?php } ?>
 					
 				</header>

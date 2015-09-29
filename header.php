@@ -43,7 +43,7 @@
 		<div class="col-5-12 header-nameplate">
 	
 			<?php if (is_front_page()) { ?>
-				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>			
+				<h1 class="logo margin-0 normal"><span><?php bloginfo('name'); ?></h1>		
 				<h3><?php bloginfo('description'); ?></h3>			
 			<?php } else { ?>
 				<a class="logo" href="/"><?php bloginfo('name'); ?></a>
