@@ -24,9 +24,7 @@
 		padding : 0;		
 	}
 	
-	.row.pad { padding : 30px 0 30px 0; }
-	.content.pad { padding : 40px 0 0 0; }
-	.home .content.pad { padding-top : 30px; }
+	.row.pad { padding : 50px 0 30px 0; }
 	
 	.row:after {
 		content: "";
@@ -146,7 +144,6 @@
 		list-style-type : none;
 		float : right;
 		font-size : 20px;
-		margin : 0;
 	}
 	
 	.home .header .menu { margin-top : 35px; }

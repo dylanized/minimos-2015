@@ -2,23 +2,27 @@
 	
 	<?php while (have_posts()) : the_post(); ?>
 
-		<article <?php post_class("margin-bottom-80") ?> id="post-<?php the_ID(); ?>">
+		<article <?php post_class("") ?> id="post-<?php the_ID(); ?>">
 
-			<header class="post-header">
-			
-				<?php if (is_singular()) { ?>
-					<h1 class="post-title margin-0"><?php the_title(); ?></h1>
-				<?php } else { ?>
-					<h1 class="post-title margin-0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-				<?php } ?>
+			<?php if (!is_front_page()) { ?>
 				
-				<?php if (!is_page()) { ?>
+				<header class="post-header">
 				
-					<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>
+					<?php if (is_singular()) { ?>
+						<h1 class="post-title margin-0"><?php the_title(); ?></h1>
+					<?php } else { ?>
+						<h1 class="post-title margin-0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+					<?php } ?>
 					
-				<?php } ?>
-				
-			</header>
+					<?php if (!is_page()) { ?>
+					
+						<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>
+						
+					<?php } ?>
+					
+				</header>
+			
+			<?php } ?>
 			
 			<section class="post-content">
 			
