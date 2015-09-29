@@ -25,6 +25,8 @@
 	}
 	
 	.row.pad { padding : 30px 0 30px 0; }
+	.content.pad { padding : 40px 0 0 0; }
+	.home .content.pad { padding-top : 30px; }
 	
 	.row:after {
 		content: "";
@@ -158,9 +160,9 @@
 	
 /* content */
 
-	.row.content { padding : 60px 0 0px 0; }	
+	/*.row.content { padding : 60px 0 0px 0; }	
 
-	.home.page .row.content { padding : 0; }		
+	.home.page .row.content { padding : 0; }*/
 
 /* footer */
 
