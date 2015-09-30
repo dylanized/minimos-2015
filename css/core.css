@@ -105,7 +105,12 @@
 			color : #000;
 		}
 		
-	/* form fields */
+	/* forms */
+	
+		fieldset {
+			border : none;
+			padding : 0;
+		}
 
 		label {
 		
