@@ -3,23 +3,27 @@ A Simple Website Framework
 
 This download contains a few good parts:
 
-# Minimos HTML Boilerplate
+## HTML Boilerplate
 
-index.html
-css, js, and lib
+- index.html
+- css, js, and lib folders
 
-# Minios WordPress Base Theme
+## WordPress Base Theme
 
-index.php
-header.php
-footer.php
-loop.php
-functions.php
-inc and app
+- index.php
+- header.php
+- footer.php
+- loop.php
+- functions.php
+- inc and app
+- css, js, and lib folders
 
-# Utility Class Library
+## Utility Class Library
 
-css/utility.css
-css/colors.css
+- css/utility.css
+- css/colors.css
 
-see more at http://minimos.net
+## Learn More
+
+http://minimos.net
+
