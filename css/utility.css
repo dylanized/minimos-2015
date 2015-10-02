@@ -67,23 +67,27 @@
 	.static				{ position : static; }
 	
 /* width and height */
-		
-	.width-10 			{ width : 10%; }
-	.width-20 			{ width : 20%; }
-	.width-25 			{ width : 25%; }
-	.width-30 			{ width : 30%; }
-	.width-40 			{ width : 40%; }
-	.width-50 			{ width : 50%; }
-	.width-60 			{ width : 60%; }
-	.width-70 			{ width : 70%; }
-	.width-75 			{ width : 75%; }
-	.width-80 			{ width : 80%; }
-	.width-90 			{ width : 90%; }			
-	.width-100 			{ width : 100%; }
+
+	@media only screen and (min-width: 769px) {	
+			
+		.width-10 			{ width : 10%; }
+		.width-20 			{ width : 20%; }
+		.width-25 			{ width : 25%; }
+		.width-30 			{ width : 30%; }
+		.width-40 			{ width : 40%; }
+		.width-50 			{ width : 50%; }
+		.width-60 			{ width : 60%; }
+		.width-70 			{ width : 70%; }
+		.width-75 			{ width : 75%; }
+		.width-80 			{ width : 80%; }
+		.width-90 			{ width : 90%; }			
+		.width-100 			{ width : 100%; }
+	
+	}
 
 	.height-100 		{ height : 100%; }
-
 	.max-width-100		{ max-width : 100%; }
+
 	
 /* alignment */	
 	
