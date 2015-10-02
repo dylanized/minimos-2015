@@ -20,6 +20,7 @@
 
 	.font-serif		{ font-family : Georgia, "Times New Roman", serif; }
 	.font-courier	{ font-family : "Courier New", Georgia, "Times New Roman", serif; }
+	.font-mono		{ font-family : monospace; }
 	
 /* font size */
 

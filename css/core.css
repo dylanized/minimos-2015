@@ -80,7 +80,7 @@
 		}
 		
 		ol {
-			margin : 0 0 20px 20px;
+			margin : 0 0 20px 40px;
 			padding : 0;	
 		}
 		
@@ -200,18 +200,18 @@
 		.alignleft {
 			float: left;
 			padding-top : 6px;
-			margin: 0 20px 10px 0;
+			margin: 0 20px 5px 0;
 		}	
 	
 		.alignright {
 			float: right;
 			padding-top : 6px;
-			margin: 0 0 10px 12px;
+			margin: 0 0 5px 13px;
 		}
 		
 		.aligncenter {
 			display : block;
-			margin : 0 auto 15px auto;
+			margin : 0 auto 20px auto;
 		}
 		
 		.alignnone {
@@ -249,16 +249,22 @@
 		.pretty-table td {
 			padding : 10px;
 			border : 1px solid #555;
+			font-size : 12px;			
 		}		
 
 		.pretty-table th {
 			font-weight : bold;
-			font-size : 12px;
 			background-color : #e8e8e8;
 		}	
 		
 		.pretty-table td {
-		}			
+		}	
+		
+	/* code */
+	
+		.code {
+			
+		}				
 		
 	/* cards */
 	
