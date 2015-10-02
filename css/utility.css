@@ -47,6 +47,11 @@
 	.font-40	{ font-size : 40px; }
 	.font-45	{ font-size : 45px; }
 	.font-50	{ font-size : 50px; }	
+	.font-60	{ font-size : 60px; }	
+	.font-70	{ font-size : 70px; }	
+	.font-80	{ font-size : 80px; }	
+	.font-90	{ font-size : 90px; }	
+	.font-100	{ font-size : 100px; }	
 
 /* display and positioning */
 	
@@ -63,11 +68,19 @@
 	
 /* width and height */
 		
+	.width-10 			{ width : 10%; }
+	.width-20 			{ width : 20%; }
 	.width-25 			{ width : 25%; }
+	.width-30 			{ width : 30%; }
+	.width-40 			{ width : 40%; }
 	.width-50 			{ width : 50%; }
+	.width-60 			{ width : 60%; }
+	.width-70 			{ width : 70%; }
 	.width-75 			{ width : 75%; }
-			
+	.width-80 			{ width : 80%; }
+	.width-90 			{ width : 90%; }			
 	.width-100 			{ width : 100%; }
+
 	.height-100 		{ height : 100%; }
 
 	.max-width-100		{ max-width : 100%; }
