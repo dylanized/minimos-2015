@@ -257,6 +257,19 @@
 			display : inline; 
 		}		
 		
+	/* button hover */
+	
+		.opacity 		{
+			opacity : 0.8;
+			transition : opacity 0.3s;
+		}
+		
+		.opacity:hover,
+		.opacity:active {
+			opacity : 1.0;
+			text-decoration : none;
+		}		
+		
 	/* tables */
 	
 		.pretty-table {
