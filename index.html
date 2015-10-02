@@ -59,7 +59,7 @@
 		
 		<nav class="col-7-12 header-nav">
 			
-			<ul id="menu-header-nav" class="menu">
+			<ul id="menu-header-nav" class="menu inline">
 				<li><a href="http://minimos.net/">About</a></li>
 				<li><a href="http://minimos.net/demo">Demo</a></li>
 				<li><a href="https://github.com/dylanized/minimos/archive/master.zip">Download</a></li>
@@ -96,7 +96,19 @@
 
 </main>
 
-<section class="row pad content border-top">
+<nav class="color-lite bgd-eee pad-v-40">
+<div class="container text-center">
+
+	<ul class="inline width-100">
+		<li class="margin-h-40"><a href="#content">Basic Content</a></li>
+		<li class="margin-h-40"><a href="#images">Content w/ Images</a></li>		
+		<li class="margin-h-40"><a href="#article">Narrow Article</a></li>				
+	</ul>
+
+</div>
+</nav>
+
+<section id="content" class="row pad content border-top">
 <div class="container">
 
 	<h1>Basic Content</h1>
@@ -122,7 +134,7 @@
 </div>	
 </section>
 
-<section class="row pad border-top">
+<section id="images" class="row pad border-top">
 <div class="container">
 
 	<h1 class="margin-bottom-40">Content with Images</h1>
@@ -143,6 +155,44 @@
 	
 	<p>Aenean sit amet arcu imperdiet, gravida leo ac, maximus tellus. Pellentesque et massa nunc. Integer pulvinar, nisi eget pretium ultrices, lorem lacus rhoncus dui, vel tincidunt velit nunc viverra nisi. Nam suscipit nulla non sodales semper. Integer molestie hendrerit tempor. Maecenas dui lacus, tincidunt vel eleifend eu, auctor vitae leo.</p>
 
+</div>
+</section>
+
+<section id="article" class="row pad border-top">
+<div class="container">
+
+	<header class="post-header margin-bottom-30">
+	
+		<img class="margin-bottom-30" src="http://placehold.it/1400x400" alt="" />	
+		
+		<h1 class="text-center margin-bottom-15">An Article Layout with a Wide Image & Wide Title but Narrow Content</h1>	
+		
+		<p class="color-lite text-center"><em>part of the Minimos Framework</em></p>
+		
+	</header>	
+	
+	<article class="section width-80 centered">
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue felis, lacinia vitae scelerisque vitae, aliquam at lectus. Quisque augue elit, tempus tempus faucibus quis, eleifend vitae neque. Donec auctor egestas suscipit. Phasellus vel tortor rhoncus, pharetra lorem ut, fringilla metus.</p>		
+		
+		<p>Phasellus ac ullamcorper massa, a pulvinar ligula. Nullam dui turpis, placerat vel fermentum in, congue pretium libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Aenean sit amet nibh ante. Cras dignissim ipsum in dolor volutpat luctus.</p>
+		
+		<footer>
+			<p class="color-lite text-center uppercase"><small>Tagged with <a href="#">#tempus</a>, <a href="#">#fuego</a>, <a href="#">#faucibus quis</a></small></p>
+		</footer>
+	
+	</article>
+		
+	<blockquote class="width-80 centered">
+		
+		<h4 class="bold color-777">A Blockquote with a Title and a Source</h4>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa.</p>
+		
+		<p class="color-ccc"><small><em>Libero at sagittis mollis, 1776</em></small></p>
+		
+	</blockquote>		
+	
 </div>
 </section>
 
