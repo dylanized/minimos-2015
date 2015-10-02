@@ -22,6 +22,15 @@ This download contains a few good parts:
 - css/utility.css
 - css/colors.css
 
+## Other Goodies
+
+- normalize.css
+- simplegrid.css
+- Font Awesome
+- Google Fonts
+- jQuery
+- Modernizr.js
+
 ## Learn More
 
 http://minimos.net
