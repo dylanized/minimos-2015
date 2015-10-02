@@ -30,8 +30,11 @@ This download contains a few good parts:
 - Google Fonts
 - jQuery
 - Modernizr.js
+- and more
 
 ## Learn More
 
-http://minimos.net
+- Homepage: http://minimos.net
+- Demo: http://minimos.net/demo
+- Created by: http://twitter.com/dylanized
 
