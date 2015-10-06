@@ -275,31 +275,32 @@
 		
 	/* tables */
 	
-		.pretty-table {
+		.table {
 			border-collapse : collapse;
 			border : 1px solid #555;
 			margin : 0 0 20px 0;
 		}		
 
-		.pretty-table th,
-		.pretty-table td {
+		.table th,
+		.table td {
 			padding : 10px;
-			border : 1px solid #555;
-			font-size : 12px;			
+			border : 1px solid #555;	
 		}		
 
-		.pretty-table th {
+		.table th {
 			font-weight : bold;
 			background-color : #e8e8e8;
 		}	
 		
-		.pretty-table td {
+		.table td {
 		}	
 		
 	/* code */
 	
 		.code {
-			
+			background-color : #eee;
+			border-radius : 10px;
+			padding : 0 40px 0 40px;
 		}				
 		
 	/* cards */
