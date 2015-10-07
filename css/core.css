@@ -140,6 +140,9 @@
 			line-height : 1.0;
 			vertical-align : bottom;
 			outline : none;
+			font-family : Helvetica, Arial, sans-serif;
+			opacity : 1.0;
+			transition : opacity 0.3s;			
 		}
 		
 		.button:link,
@@ -150,7 +153,7 @@
 		.button:hover,		
 		input[type=submit]:active,
 		button:active,
-		.button:active		{ color : #fff; text-decoration : underline; }	
+		.button:active		{ color : #fff; text-decoration : none; opacity : 0.7; }	
 		
 /* header */
 	
@@ -258,7 +261,7 @@
 			display : inline; 
 		}		
 		
-	/* button hover */
+	/* opacity helper */
 	
 		.opacity 		{
 			opacity : 1.0;
@@ -267,10 +270,10 @@
 		
 		.opacity:hover,
 		.opacity:active,
-		input.opacity:hover,
-		input.opacity:active {
-			opacity : 0.7;
-			text-decoration : none;
+		.opacity:hover,
+		.opacity:active {
+			opacity : 0.7 !important;
+			text-decoration : none !important;
 		}		
 		
 	/* tables */
