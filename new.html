@@ -35,7 +35,7 @@
 	<link rel='stylesheet' id='minimos-utility-css'  href='css/utility.css' type='text/css' media='all' />	
 	<link rel='stylesheet' id='minimos-colors-css'  href='css/colors.css' type='text/css' media='all' />
 	
-	<!--<link rel='stylesheet' id='theme-media-css'  href='css/media.css' type='text/css' media='all' />	-->
+	<link rel='stylesheet' id='theme-media-css'  href='css/media.css' type='text/css' media='all' />	
 	<link rel='stylesheet' id='theme-overrides-css'  href='style.css' type='text/css' media='all' />
 
 	<!-- js -->
@@ -53,7 +53,7 @@
 		<div class="col-5-12 header-nameplate">
 	
 			<h1 class="logo margin-0 normal"><a href="http://minimos.net"><span>Minimos</span></a></h1>
-			<h3 class="h6">A Simple Website Framework</h3>			
+			<h3>A Simple Website Framework</h3>			
 									
 		</div>
 		
@@ -112,25 +112,29 @@
 <section id="content" class="row pad content border-top">
 <div class="container">
 
-	<h1>Basic Content</h1>
-	       
-	<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+	<div style="font-size:20px;">Hello World</div>
+
+	<div style="font-size:2.0em;">Hello World</div>
+
+	<!-- 
 	
-	<h2>Header Level 2</h2>
-		       
-	<ol>
-	   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-	   <li>Aliquam tincidunt mauris eu risus.</li>
-	</ol>
+	<div class="h1">Hello World px</div>
 	
-	<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+	<div class="h1e">Hello World em</div>
+
+	<div class="h1"><span class="h3">Hello World</span></div>
 	
-	<h3>Header Level 3</h3>
+	<div class="h1e"><span class="h3e">Hello World</span></div>
+
+	<div class="h1"><span class="h3"><span class="h1">Hello World</span></span></div>
 	
-	<ul>
-	   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-	   <li>Aliquam tincidunt mauris eu risus.</li>
-	</ul>
+	<div class="h1e"><span class="h3e"><span class="h1e">Hello World</span></span></div>
+	
+	<div class="h1 h3 h1">Hello World px</div>
+	
+	<div class="h1e h3e h1e">Hello World em</div>
+	
+	-->
 
 </div>	
 </section>
@@ -270,11 +274,11 @@
 	
 			<a class="button bgd-red" href="#">Small</a>
 	
-			<a class="button bgd-red em-15" href="#">Medium</a>
+			<a class="button bgd-red font-30" href="#">Medium</a>
 	
-			<a class="button bgd-red em-20" href="#">Large</a>
+			<a class="button bgd-red font-50" href="#">Large</a>
 			
-			<a class="button bgd-red em-25 rounded" href="#">Rounded</a>
+			<a class="button bgd-red font-50 rounded" href="#">Rounded</a>
 			
 		</p>
 		
@@ -284,11 +288,11 @@
 		
 			<button class="bgd-blue">Small</button>
 	
-			<button class="bgd-blue em-15">Medium</button>
+			<button class="bgd-blue font-30">Medium</button>
 	
-			<button class="bgd-blue em-20">Large</button>
+			<button class="bgd-blue font-50">Large</button>
 			
-			<button class="bgd-blue em-25 rounded">Rounded</button>
+			<button class="bgd-blue font-50 rounded">Rounded</button>
 		
 		</p>
 		
@@ -298,28 +302,15 @@
 		
 			<input class="button bgd-orange" type="submit" name="" value="Small" />
 
-			<input class="button bgd-orange em-15" type="submit" name="" value="Medium" />
+			<input class="button bgd-orange font-30" type="submit" name="" value="Medium" />
 
-			<input class="button bgd-orange em-20" type="submit" name="" value="Large" />
+			<input class="button bgd-orange font-50" type="submit" name="" value="Large" />
 
-			<input class="button bgd-orange em-25 rounded" type="submit" name="" value="Rounded" />
+			<input class="button bgd-orange font-50 rounded" type="submit" name="" value="Rounded" />
 		
 		</p>	
 	
 	</section>	
-	
-	<section class="section">
-	
-		<h3 class="margin-bottom-40 color-000 underline">Headers</h3>
-	
-		<h1>Header Level 1</h1>	
-		<h2>Header Level 2</h2>	
-		<h3>Header Level 3</h3>	
-		<h4>Header Level 4</h4>	
-		<h5>Header Level 5</h5>	
-		<h6>Header Level 6</h6>	
-	
-	</section>		
 
 </div>
 

@@ -5,9 +5,9 @@
 	body {
 		background : #fff;	
 		font-family : Georgia, "Times New Roman", serif;
-		font-size : 20px;
 		color : #111;
-		line-height : 1.6;
+		line-height : 1.5;
+		font-size : 125%;
 	}
 	
 	a:link,
@@ -56,23 +56,22 @@
 			color : #999;
 			font-weight : normal;
 			letter-spacing : 0;
-			line-height : 1.5;
 			margin : 0 0 20px 0;
 		}
 		
-		h1 		{ font-size : 40px; color : #000; }
-		h2		{ font-size : 30px; color : #000; }
-		h3		{ font-size : 25px; }
-		h4		{ font-size : 20px; }
-		h5 		{ font-size : 15px; }
-		h6 		{ font-size : 10px; }
+		h1 			{ font-size : 2.0em; color : #000; }
+		h2			{ font-size : 1.8em; color : #000; }
+		h3			{ font-size : 1.6em; }
+		h4			{ font-size : 1.4em; }
+		h5 			{ font-size : 1.2em; }
+		h6 			{ font-size : 1.0em; }
 		
-		.h1 		{ font-size : 40px; color : #000; }
-		.h2			{ font-size : 30px; color : #000; }
-		.h3			{ font-size : 25px; }
-		.h4			{ font-size : 20px; }
-		.h5 		{ font-size : 15px; }
-		.h6 		{ font-size : 10px; }				
+		.h1 		{ font-size : 2.0em; color : #000; }
+		.h2			{ font-size : 3.0em; color : #000; }
+		.h3			{ font-size : 2.5em; }
+		.h4			{ font-size : 2.0em; }
+		.h5 		{ font-size : 1.5em; }
+		.h6 		{ font-size : 1.0em; }				
 		
 		h1 a:link, 
 		h1 a:visited 	{ color : #ccc; text-decoration : none; }
@@ -101,7 +100,7 @@
 		}
 		
 		small {
-			font-size : 15px;
+			font-size : 1.5em;
 		}
 		
 		blockquote {
@@ -167,7 +166,6 @@
 	.header .menu {
 		list-style-type : none;
 		float : right;
-		font-size : 20px;
 		margin-bottom : 0;
 	}
 	
@@ -183,10 +181,6 @@
 	.header li.current { text-decoration : underline; }
 	
 /* content */
-
-	/*.row.content { padding : 60px 0 0px 0; }	
-
-	.home.page .row.content { padding : 0; }*/
 
 /* footer */
 
@@ -323,7 +317,10 @@
 		
 /* custom utilities */
 
-	.lead					{ font-size : 25px; margin-bottom : 35px; }
+	.lead					{
+		font-size : 1.3em;
+		margin-bottom : 35px;
+	}
 	
 	.section				{ margin-bottom : 50px; }
 	
