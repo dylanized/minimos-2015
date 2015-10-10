@@ -52,6 +52,25 @@
 	.font-80	{ font-size : 80px; }	
 	.font-90	{ font-size : 90px; }	
 	.font-100	{ font-size : 100px; }	
+	
+	.em-5		{ font-size : .5em; }
+	.em-6		{ font-size : .6em; }	
+	.em-7		{ font-size : .7em; }
+	.em-8		{ font-size : .8em; }
+	.em-9		{ font-size : .9em; }
+	.em-10		{ font-size : 1.0em; }
+	.em-11		{ font-size : 1.1em; }
+	.em-12		{ font-size : 1.2em; }
+	.em-13		{ font-size : 1.3em; }
+	.em-14		{ font-size : 1.4em; }
+	.em-15		{ font-size : 1.5em; }
+	.em-16		{ font-size : 1.6em; }
+	.em-17		{ font-size : 1.7em; }
+	.em-18		{ font-size : 1.8em; }
+	.em-19		{ font-size : 1.9em; }
+	.em-20		{ font-size : 2.0em; }
+	.em-25		{ font-size : 2.5em; }
+	.em-30		{ font-size : 3.0em; }
 
 /* display and positioning */
 	
