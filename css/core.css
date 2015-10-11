@@ -131,8 +131,18 @@
 		.input {
 			padding : 5px;
 			border : 1px solid #ccc;
+			margin-bottom : 5px;
+			display : inline-block;
 		}	
 		
+		textarea {
+			color : #999;
+		}
+
+		textarea:focus {
+			color : #000;
+		}
+				
 		.input-tiny 	{ width : 50px; }
 		.input-short	{ width : 125px; }
 		.input-medium	{ width : 250px; }
@@ -278,8 +288,12 @@
 		.inline label,	
 		.inline input,
 		.inline button {
-			display : inline; 
+			display : inline-block;
+			vertical-align : middle; 
 		}		
+		
+		.inline input { margin-right : 3px; }
+		.inline label { margin-right : 20px; }
 		
 	/* opacity helper */
 	
