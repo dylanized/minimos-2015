@@ -1,13 +1,15 @@
 /* MINIMOS CORE CSS */
 
-/* base styles */	
+/* base styles */
+
+	html { font-size : 125%; }
 
 	body {
 		background : #fff;	
 		font-family : Georgia, "Times New Roman", serif;
 		color : #111;
 		line-height : 1.5;
-		font-size : 125%;
+		font-size : 1rem;
 	}
 	
 	a:link,
@@ -29,7 +31,7 @@
 		padding : 0;		
 	}
 	
-	.row.pad { padding : 50px 0 30px 0; }
+	.row.pad { padding : 2.5rem 0 1.5rem 0; }
 	
 	.row:after {
 		content: "";
@@ -40,7 +42,7 @@
 	.container {
 		max-width : 960px;
 		margin: 0 auto;
-		padding : 0 1em 0 1em;
+		padding : 0 1rem 0 1rem;
 	}	
 	
 /* default content */	
@@ -74,17 +76,17 @@
 	/* content */
 	
 		p, .p {
-			margin : 0 0 25px 0;
+			margin : 0 0 1.25rem 0;
 		}
 		
 		ul {
 			list-style-type : square;
-			margin : 0 0 30px 40px;
+			margin : 0 0 1.5rem 2rem;
 			padding : 0;
 		}
 		
 		ol {
-			margin : 0 0 20px 40px;
+			margin : 0 0 1rem 2rem;
 			padding : 0;	
 		}
 		
@@ -100,8 +102,8 @@
 			border-top : 1px solid #e8e8e8;
 			border-bottom : 1px solid #e8e8e8;
 			text-align : center;
-			margin : 40px 0 35px 0;
-			padding : 25px 6% 1px 6%;
+			margin : 2rem 0 1.75rem 0;
+			padding : 1.25rem 6% 1px 6%;
 			color : #999;
 		}
 		
@@ -121,7 +123,7 @@
 		.label {
 			font-weight : bold;
 			display : block;
-			margin-bottom : 5px;
+			margin-bottom : .25rem;
 		}	
 	
 		input[type=text],
@@ -129,9 +131,9 @@
 		textarea { }
 
 		.input {
-			padding : 5px;
+			padding : .25rem;
 			border : 1px solid #ccc;
-			margin-bottom : 5px;
+			margin-bottom : .25rem;
 			display : inline-block;
 		}	
 		
@@ -143,10 +145,10 @@
 			color : #000;
 		}
 				
-		.input-tiny 	{ width : 50px; }
-		.input-short	{ width : 125px; }
-		.input-medium	{ width : 250px; }
-		.input-long		{ width : 432px; }
+		.input-tiny 	{ width : 2rem; }
+		.input-short	{ width : 6rem; }
+		.input-medium	{ width : 12rem; }
+		.input-long		{ width : 24rem; }
 			
 	/* buttons */
 	
@@ -154,9 +156,9 @@
 		.button {
 			background-color : #555;
 			color : #fff;
-			padding : 15px 30px 15px 30px;
+			padding : .75rem 1.5rem .75rem 1.5rem;
 			border : none;
-			margin : 0 1px 10px 1px;
+			margin : 0 1px .5rem 1px;
 			display : block;		
 			line-height : 1.0;
 			vertical-align : bottom;
@@ -191,12 +193,12 @@
 	}
 	
 	.home .header .menu {
-		margin-top : 35px;
+		margin-top : 1.75rem;
 	}
 	
 	.header li {
 		display : inline-block;
-		margin-left : 25px;	
+		margin-left : 1.25rem;	
 	}
 	
 	.header li.current { text-decoration : underline; }
@@ -209,7 +211,13 @@
 	
 	}
 	
-/* essential components */	
+/* essential components */
+
+	/* content helpers */
+	
+		.lead { font-size : 1.25em; }
+		
+		.mark { background-color : #eee; border-radius : 2px; }
 
 	/* posts */
 	
@@ -218,7 +226,7 @@
 		}
 		
 		.post-header {
-			margin-bottom : 40px;
+			margin-bottom : 2rem;
 		}
 		
 	/* images */
@@ -226,7 +234,7 @@
 		.wp-image,
 		.img-thumbnail {
 			display: inline-block;
-			padding: 4px;
+			padding: .25rem;
 			background-color: #fff;
 			border: 1px solid #ddd;
 		}	
@@ -236,26 +244,26 @@
 		.alignnone,
 		.aligncenter {
 			display : block;
-			margin : 0 auto 20px auto;
+			margin : 0 auto 1rem auto;
 		}		
 		
 		@media only screen and (min-width: 769px) {			
 	
 			.alignleft {
 				float: left;
-				padding-top : 6px;
-				margin: 0 20px 5px 0;
+				padding-top : .25rem;
+				margin: 0 1rem .25rem 0;
 			}	
 		
 			.alignright {
 				float: right;
 				padding-top : 6px;
-				margin: 0 0 5px 13px;
+				margin: 0 0 .25rem .75rem;
 			}
 			
 			.alignnone {
 				display : block;
-				margin : 0 0 15px 0;
+				margin : 0 0 .75rem 0;
 			}
 		
 		}		
@@ -263,11 +271,11 @@
 	/* wp captions */
 		
 		.wp-caption p {
-			padding : 0 15px 0 15px;
+			padding : 0 .75rem 0 .75rem;
 		}
 
 		.wp-caption.aligncenter p {
-			padding : 0 30px 0 30px;
+			padding : 0 1.5rem 0 1.5rem;
 		}
 		
 	/* inline lists */
@@ -282,8 +290,7 @@
 			display : inline-block;
 		}
 			
-	/* form helpers */
-
+	/* inline form rows */
 	
 		.inline label,	
 		.inline input,
@@ -292,12 +299,12 @@
 			vertical-align : middle; 
 		}		
 		
-		.inline input { margin-right : 3px; }
-		.inline label { margin-right : 20px; }
+		.inline input { margin-right : .25rem; }
+		.inline label { margin-right : 1rem; }
 		
 	/* opacity helper */
 	
-		.opacity 		{
+		.opacity {
 			opacity : 1.0;
 			transition : opacity 0.3s;
 		}
@@ -315,12 +322,12 @@
 		.table {
 			border-collapse : collapse;
 			border : 1px solid #555;
-			margin : 0 0 20px 0;
+			margin : 0 0 1rem 0;
 		}
 
 		.table th,
 		.table td {
-			padding : 10px;
+			padding : .5rem;
 			border : 1px solid #555;
 			display : table-cell;	
 		}		
@@ -336,16 +343,16 @@
 	
 		.panel {
 			background-color : #eee;
-			border-radius : 10px;
-			padding : 0 40px 0 40px;
+			border-radius : .5rem;
+			padding : 0 2rem 0 2rem;
 		}				
 		
 	/* cards */
 	
 		.card {
-			padding : 10px;
+			padding : .5rem;
 			float : left;
-			margin : 0 15px 15px 0;
+			margin : 0 .75rem .75rem 0;
 		}	
 		
 /* custom utilities */
@@ -355,15 +362,15 @@
 		font-weight : bold;
 	}
 	
-	.section				{ margin-bottom : 50px; }
+	.section				{ margin-bottom : 2.5rem; }
 	
-	.margin-top				{ margin : 20px; }
-	.margin-bottom			{ margin : 20px; }
-	.margin-v				{ margin-top : 20px; margin-bottom : 20px; }
+	.margin-top				{ margin : 1rem; }
+	.margin-bottom			{ margin : 1rem; }
+	.margin-v				{ margin-top : 1rem; margin-bottom : 1rem; }
 
-	.pad					{ padding : 20px; }
-	.pad-top				{ padding-top : 20px; }
-	.pad-bottom				{ padding-bottom : 20px; }
+	.pad					{ padding : 1rem; }
+	.pad-top				{ padding-top : 1rem; }
+	.pad-bottom				{ padding-bottom : 1rem; }
 	
 	.border					{ border : 1px solid #e8e8e8; }	
 	.border-top				{ border-top : 1px solid #e8e8e8; }
@@ -371,12 +378,12 @@
 	.border-bottom			{ border-bottom : 1px solid #e8e8e8; }
 	.border-left			{ border-left : 1px solid #e8e8e8; }
 	
-	.rounded 				{ border-radius : 10px; }
-	.indent 				{ margin-left : 30px !important; }
+	.rounded 				{ border-radius : .5rem; }
+	.indent 				{ margin-left : 1.5rem !important; }
 	
-	.short					{ width : 70px; }
-	.medium					{ width : 150px; }
-	.long					{ width : 220px; }
+	.short					{ width : 4rem; }
+	.medium					{ width : 8rem; }
+	.long					{ width : 16rem; }
 	
 /* custom colors */
 
