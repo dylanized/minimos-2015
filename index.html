@@ -203,64 +203,169 @@
 
 	<header class="section">
 	
-		<h1 class="color-red font-sans bold">Other Basic Elements</h1>
+		<h1 class="display text-center color-lite">Other Basic Elements</h1>
 	
 	</header>
 
 	<section id="table" class="section">
-
-		<h3 class="margin-bottom-40 color-000 underline">Table</h3>
 	
-		<table class="table">
-			<tr>
-				<th>City</th>
-				<th>Country</th>
-				<th>Continent</th>
-			</tr>
-			<tr>
-				<td>St. Louis</td>
-				<td>USA</td>
-				<td>North America</td>
-			</tr>
-			<tr>
-				<td>Chicago</td>
-				<td>USA</td>
-				<td>North America</td>
-			</tr>
-			<tr>
-				<td>Antigua</td>
-				<td>Guatemala</td>
-				<td>Central America</td>
-			</tr>
-			<tr>
-				<td>Santiago</td>
-				<td>Chile</td>
-				<td>South America</td>
-			</tr>
-			<tr>
-				<td>Chiang Mai</td>
-				<td>Thailand</td>
-				<td>Asia</td>
-			</tr>
-		</table>
+		<section id="def" class="section grid">
+		
+			<h3 class="margin-bottom-40 color-000 underline">Table</h3>
+		
+			<table class="table">
+				<tr>
+					<th>City</th>
+					<th>Country</th>
+					<th>Continent</th>
+				</tr>
+				<tr>
+					<td>St. Louis</td>
+					<td>USA</td>
+					<td>North America</td>
+				</tr>
+				<tr>
+					<td>Chicago</td>
+					<td>USA</td>
+					<td>North America</td>
+				</tr>
+				<tr>
+					<td>Antigua</td>
+					<td>Guatemala</td>
+					<td>Central America</td>
+				</tr>
+				<tr>
+					<td>Santiago</td>
+					<td>Chile</td>
+					<td>South America</td>
+				</tr>
+				<tr>
+					<td>Chiang Mai</td>
+					<td>Thailand</td>
+					<td>Asia</td>
+				</tr>
+			</table>
+									
+		</section>	
 		
 	</section>
 	
-	<section id="code" class="section">
+	<section id="code" class="section grid">
 	
-		<h3 class="margin-bottom-40 color-000 underline">Code</h3>	
 		
-		<pre class="code"><code>
+		<div class="col-6-12">
+		
+			<h3 class="margin-bottom-40 color-000 underline">Definition List</h3>
+			
+			<dl>
+				<dt class="h5">Word #1</dt>
+				<dd class="p">Definition #1</dd>
+				<dt class="h5">Word #1</dt>
+				<dd class="p">Definition #1</dd>
+				<dt class="h5">Word #1</dt>
+				<dd class="p">Definition #1</dd>
+			</dl>
+		
+		</div>		
+	
+		<div class="col-6-12">
+			
+			<h3 class="margin-bottom-40 color-000 underline">Code Block</h3>
+		
+			<pre class="code"><code>
 #header h1 a { 
 	display: block; 
 	width: 300px; 
 	height: 80px; 
 }
-		</code></pre>
+			</code></pre>			
+	
+		</div>
+
+	</section>
+	
+	<section id="headers" class="section grid">
+	
+		<h3 class="margin-bottom-40 color-000 underline">Headers</h3>
+		
+		<div class="col-6-12">
+	
+			<h1>Header Level 1</h1>	
+			<h2>Header Level 2</h2>	
+			<h3>Header Level 3</h3>	
+			<h4>Header Level 4</h4>	
+			<h5>Header Level 5</h5>	
+			<h6>Header Level 6</h6>		
+				
+		</div>
+
+		<div class="col-6-12">
+			
+			<h1 class="display">Display Header 1</h1>	
+			<h2 class="display">Display Header 2</h2>	
+			<h3 class="display">Display Header 3</h3>	
+			<h4 class="display">Display Header 4</h4>	
+			<h5 class="display">Display Header 5</h5>	
+			<h6 class="display">Display Header 6</h6>	
+				
+		</div>	
+	
+	</section>
+
+</div>
+
+</div>
+</section>
+
+<section id="other" class="row pad content border-top">
+<div class="container">
+
+<section id="form" class="section">
+	
+		<h3 class="margin-bottom-40 color-000 underline">Sample Form</h3>
+		
+		<form action="" method="">		
+			
+			<fieldset class="p">
+				<label class="label" for="name">Name</label>
+				<input id="name" class="input" type="text" name="name" value="" placeholder="This is a text box" />
+			</fieldset>
+
+			<fieldset class="p">
+				<label class="label" for="email">Email</label>
+				<input id="email" class="input" type="email" name="email" value="" placeholder="This is an email box" />
+			</fieldset>
+
+			<fieldset class="p">
+				<label class="label" for="password">Password</label>
+				<input id="password" class="input" type="password" name="password" />
+			</fieldset>
+
+			<fieldset class="p">
+				<label class="label">Radio Buttons</label>
+				<input type="radio" name="radio1" checked />
+				<input type="radio" name="radio1" value="" />
+				<input type="radio" name="radio1" value="" />
+			</fieldset>
+			
+			<fieldset class="p">
+				<label class="label">Checkboxes</label>
+				<input type="checkbox" name="checkbox1" checked />
+				<input type="checkbox" name="checkbox2" checked />
+			</fieldset>
+
+			<fieldset class="p">
+				<label class="label" for="comment">Textarea</label>
+				<textarea id="comment" class="input" class="width-50">This is a textarea</textarea>
+			</fieldset>
+			
+			<input class="button" type="submit" name="submit" value="Submit" />
+		
+		</form>
 	
 	</section>
 	
-	<section id="buttons" class="section">
+	<section id="form" class="section">
 	
 		<h3 class="margin-bottom-40 color-000 underline">Buttons</h3>
 		
@@ -307,36 +412,6 @@
 		</p>	
 	
 	</section>	
-	
-	<section id="headers" class="section grid">
-	
-		<h3 class="margin-bottom-40 color-000 underline">Headers</h3>
-		
-		<div class="col-6-12">
-	
-			<h1>Header Level 1</h1>	
-			<h2>Header Level 2</h2>	
-			<h3>Header Level 3</h3>	
-			<h4>Header Level 4</h4>	
-			<h5>Header Level 5</h5>	
-			<h6>Header Level 6</h6>		
-				
-		</div>
-
-		<div class="col-6-12">
-			
-			<h1 class="display">Display Header 1</h1>	
-			<h2 class="display">Display Header 2</h2>	
-			<h3 class="display">Display Header 3</h3>	
-			<h4 class="display">Display Header 4</h4>	
-			<h5 class="display">Display Header 5</h5>	
-			<h6 class="display">Display Header 6</h6>	
-				
-		</div>	
-	
-	</section>		
-
-</div>
 
 </div>
 </section>

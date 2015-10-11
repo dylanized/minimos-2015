@@ -59,19 +59,12 @@
 			margin : 0 0 20px 0;
 		}
 		
-		h1 			{ font-size : 2.0em; color : #000; }
-		h2			{ font-size : 1.8em; color : #000; }
-		h3			{ font-size : 1.6em; }
-		h4			{ font-size : 1.4em; }
-		h5 			{ font-size : 1.2em; }
-		h6 			{ font-size : 1.0em; }
-		
-		.h1 		{ font-size : 2.0em; color : #000; }
-		.h2			{ font-size : 3.0em; color : #000; }
-		.h3			{ font-size : 2.5em; }
-		.h4			{ font-size : 2.0em; }
-		.h5 		{ font-size : 1.5em; }
-		.h6 		{ font-size : 1.0em; }				
+		h1, .h1 		{ font-size : 2.0em; color : #000; }
+		h2, .h2			{ font-size : 2.0em; color : #000; }
+		h3, .h3			{ font-size : 1.7em; }
+		h4, .h4			{ font-size : 1.4em; }
+		h5, .h5			{ font-size : 1.0em; font-weight : bold; }
+		h6, .h6 		{ font-size : 1.0em; font-weight : normal; }
 		
 		h1 a:link, 
 		h1 a:visited 	{ color : #ccc; text-decoration : none; }
@@ -80,7 +73,7 @@
 	
 	/* content */
 	
-		p {
+		p, .p {
 			margin : 0 0 25px 0;
 		}
 		
@@ -99,11 +92,11 @@
 			margin : 0 0 4px 0;
 		}
 		
-		small {
+		small, .small {
 			font-size : 0.75em;
 		}
 		
-		blockquote {
+		blockquote, .blockquote {
 			border-top : 1px solid #e8e8e8;
 			border-bottom : 1px solid #e8e8e8;
 			text-align : center;
@@ -123,15 +116,11 @@
 			padding : 0;
 		}
 
-		label {
-		
-		}
+		label { }
 	
 		input[type=text],
 		input[type=email],
-		textarea {
-		
-		}
+		textarea { }
 	
 	/* buttons */
 	
@@ -254,7 +243,17 @@
 			display : inline-block;
 		}
 			
-	/* inline forms */
+	/* form helpers */
+	
+		.label {
+			font-weight : bold;
+			display : block;
+			margin-bottom : 5px;
+		}
+		
+		.input {
+			padding : 5px;
+		}
 	
 		.inline label,	
 		.inline input,
@@ -283,12 +282,13 @@
 			border-collapse : collapse;
 			border : 1px solid #555;
 			margin : 0 0 20px 0;
-		}		
+		}
 
 		.table th,
 		.table td {
 			padding : 10px;
-			border : 1px solid #555;	
+			border : 1px solid #555;
+			display : table-cell;	
 		}		
 
 		.table th {
@@ -296,8 +296,7 @@
 			background-color : #e8e8e8;
 		}	
 		
-		.table td {
-		}	
+		.table td { }	
 		
 	/* code */
 	
@@ -318,8 +317,8 @@
 /* custom utilities */
 
 	.display {
-		color : #000 !important;
-		font-family : Helvetica, Arial, sans-serif !important;
+		font-family : Helvetica, Arial, sans-serif;
+		font-weight : bold;
 	}
 	
 	.section				{ margin-bottom : 50px; }
