@@ -117,11 +117,22 @@
 		}
 
 		label { }
+			
+		.label {
+			font-weight : bold;
+			display : block;
+			margin-bottom : 5px;
+		}	
 	
 		input[type=text],
 		input[type=email],
 		textarea { }
-	
+
+		.input {
+			padding : 5px;
+			border : 1px solid #ccc;
+		}	
+			
 	/* buttons */
 	
 		button,
@@ -129,15 +140,16 @@
 			background-color : #555;
 			color : #fff;
 			padding : 15px 30px 15px 30px;
-			display : inline-block;
 			border : none;
-			margin : 0 1px 0;
+			margin : 0 1px 10px 1px;
+			display : block;		
 			line-height : 1.0;
 			vertical-align : bottom;
 			outline : none;
 			font-family : Helvetica, Arial, sans-serif;
 			opacity : 1.0;
-			transition : opacity 0.3s;			
+			transition : opacity 0.3s;	
+			text-align : center;		
 		}
 		
 		.button:link,
@@ -148,7 +160,12 @@
 		.button:hover,		
 		input[type=submit]:active,
 		button:active,
-		.button:active		{ color : #fff; text-decoration : none; opacity : 0.7; }	
+		.button:active		{ color : #fff; text-decoration : none; opacity : 0.7; }
+		
+		
+		@media only screen and (min-width: 769px) {	
+			button, .button { display : inline-block; }
+		}
 		
 /* header */
 	
@@ -198,28 +215,35 @@
 			background-color: #fff;
 			border: 1px solid #ddd;
 		}	
-	
-		.alignleft {
-			float: left;
-			padding-top : 6px;
-			margin: 0 20px 5px 0;
-		}	
-	
-		.alignright {
-			float: right;
-			padding-top : 6px;
-			margin: 0 0 5px 13px;
-		}
 		
+		.alignleft,
+		.alignright,
+		.alignnone,
 		.aligncenter {
 			display : block;
 			margin : 0 auto 20px auto;
-		}
+		}		
 		
-		.alignnone {
-			display : block;
-			margin : 0 0 15px 0;
-		}			
+		@media only screen and (min-width: 769px) {			
+	
+			.alignleft {
+				float: left;
+				padding-top : 6px;
+				margin: 0 20px 5px 0;
+			}	
+		
+			.alignright {
+				float: right;
+				padding-top : 6px;
+				margin: 0 0 5px 13px;
+			}
+			
+			.alignnone {
+				display : block;
+				margin : 0 0 15px 0;
+			}
+		
+		}		
 				
 	/* wp captions */
 		
@@ -244,16 +268,7 @@
 		}
 			
 	/* form helpers */
-	
-		.label {
-			font-weight : bold;
-			display : block;
-			margin-bottom : 5px;
-		}
-		
-		.input {
-			padding : 5px;
-		}
+
 	
 		.inline label,	
 		.inline input,
@@ -298,9 +313,9 @@
 		
 		.table td { }	
 		
-	/* code */
+	/* panel */
 	
-		.code {
+		.panel {
 			background-color : #eee;
 			border-radius : 10px;
 			padding : 0 40px 0 40px;
