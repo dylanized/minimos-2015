@@ -132,6 +132,11 @@
 			padding : 5px;
 			border : 1px solid #ccc;
 		}	
+		
+		.input-tiny 	{ width : 50px; }
+		.input-short	{ width : 125px; }
+		.input-medium	{ width : 250px; }
+		.input-long		{ width : 432px; }
 			
 	/* buttons */
 	

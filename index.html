@@ -340,23 +340,39 @@
 				<label class="label" for="password">Password</label>
 				<input id="password" class="input" type="password" name="password" />
 			</fieldset>
+			
+			<fieldset class="p">
+				<label class="label" for="name">Full Name</label>
+				<input id="name" class="input input-short" type="text" name="name" value="" placeholder="Short" />
+				<input id="name" class="input input-tiny" type="text" name="name" value="" placeholder="Tiny" />
+				<input id="name" class="input input-medium" type="text" name="name" value="" placeholder="Medium" />		
+			</fieldset>			
 
 			<fieldset class="p">
+				<label class="label" for="name">Occupation</label>
+				<input id="name" class="input input-long" type="text" name="name" value="" placeholder="Long" />
+			</fieldset>			
+			
+			<fieldset class="p">
 				<label class="label">Radio Buttons</label>
-				<input type="radio" name="radio1" checked />
-				<input type="radio" name="radio1" value="" />
-				<input type="radio" name="radio1" value="" />
+				<ul class="inline">
+					<li><input id="radio1" type="radio" name="radio" checked /> <label for="radio1" class="h6">Radio #1</label></li>
+					<li><input id="radio2" type="radio" name="radio" value="" /> <label for="radio2" class="h6">Radio #2</label></li>
+					<li><input id="radio3" type="radio" name="radio" value="" /> <label for="radio3" class="h6">Radio #3</label></li>
+				</ul>
 			</fieldset>
 			
 			<fieldset class="p">
 				<label class="label">Checkboxes</label>
-				<input type="checkbox" name="checkbox1" checked />
-				<input type="checkbox" name="checkbox2" checked />
+				<ul class="inline">
+					<li><input id="checkbox1" type="checkbox" name="checkbox1" checked /> <label for="checkbox1" class="h6">Checkbox #1</label></li>
+					<li><input id="checkbox2" type="checkbox" name="checkbox2" checked /> <label for="checkbox2" class="h6">Checkbox #2</label></li>
+				</ul>
 			</fieldset>
 
 			<fieldset class="p">
 				<label class="label" for="comment">Textarea</label>
-				<textarea id="comment" class="input" class="width-50">This is a textarea</textarea>
+				<textarea id="comment" class="input input-long" class="width-50">This is a textarea</textarea>
 			</fieldset>
 			
 			<input class="button" type="submit" name="submit" value="Submit" />
