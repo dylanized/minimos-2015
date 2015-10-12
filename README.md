@@ -14,7 +14,6 @@ This download contains a few good parts:
 - footer.php
 - loop.php
 - functions.php
-- inc and app
 - css, js, and lib folders
 
 ## Utility Class Library
