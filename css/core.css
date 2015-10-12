@@ -190,17 +190,18 @@
 		
 		.header .menu {
 			list-style-type : none;
-			float : right;
 			margin-bottom : 0;
 		}
 		
-		.home .header .menu {
-			margin-top : 1.75rem;
-		}
-		
-		.header li {
-			display : inline-block;
-			margin-left : 1.25rem;	
+		@media only screen and (min-width: 769px) {	
+			.home .header .menu {
+				float : right;
+				margin-top : 1.75rem;
+			}				
+			.header li {
+				display : inline-block;
+				margin-left : 1.25rem;	
+			}			
 		}
 		
 		.header li.current { text-decoration : underline; }

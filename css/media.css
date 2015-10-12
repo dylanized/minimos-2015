@@ -13,49 +13,13 @@
 /* medium devices */
 @media only screen and (max-width: 768px) {	
 	
-	.row.pad { padding : 5px 0 5px 0; }
-	
-	.header h3 {
-		font-size : 1.0em;
-		margin-bottom : 10px;
-	}
-	
-	.header .menu {
-		float : none; 
-		text-align : left;
-		margin-top : 15px !important;
-		font-size : 15px;
-	}
-
-	.header li { margin : 0 20px 0 0; }
+	html { font-size : 115%; }
 	
 }
 
 /* small devices */
 @media only screen and (max-width: 480px) {
 
-	h1 {
-		font-size : 1.2em;
-		line-height : 1.3;
-	}
-
-	button,
-	.button {
-		text-align : center;
-		width : 100%;
-	}
-	
-	img.alignleft,
-	img.alignright,
-	img.aligncenter,
-	img.alignnone {
-		display : block;
-		margin : 0 0 20px 0;
-	}
-	
-	.footer p {
-		float : none;
-		text-align : center;
-	}
+	html { font-size : 100%; }
 	
 }
