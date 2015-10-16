@@ -140,17 +140,6 @@
 		.placeholder,
 		::-webkit-input-placeholder { color : #999; }
 		:-moz-input-placeholder 	{ color : #999; }
-				
-		.input-tiny 	{ width : 2rem; }
-		.input-small	{ width : 6rem; }
-
-		/* large inputs (large tablets and up ) */		
-		@media only screen and (min-width: 769px) {	
-		
-			.input-medium	{ width : 12rem; }
-			.input-large	{ width : 20.5rem; }
-			
-		}
 			
 	/* buttons */
 	
@@ -393,10 +382,17 @@
 	/* other helpers */
 		
 		.indent 				{ margin-left : 1.5rem !important; }
+				
+		.width-tiny 			{ width : 2rem; }
+		.width-small			{ width : 6rem; }
+
+		/* large inputs (large tablets and up ) */		
+		@media only screen and (min-width: 769px) {	
 		
-		.short					{ width : 4rem; }
-		.medium					{ width : 8rem; }
-		.long					{ width : 16rem; }
+			.width-medium		{ width : 12rem; }
+			.width-large		{ width : 20.5rem; }
+			
+		}
 		
 	/* custom colors */		
 		
