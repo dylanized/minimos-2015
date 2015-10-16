@@ -38,8 +38,8 @@
 		wp_enqueue_script("jquery");
 		
 		// common.js
-		wp_register_script("theme-common", get_template_directory_uri() . "/js/common.js", FALSE, FALSE, TRUE);
-		wp_enqueue_script("theme-common");
+		wp_register_script("common-js", get_template_directory_uri() . "/js/common.js", FALSE, FALSE, TRUE);
+		wp_enqueue_script("common-js");
 		
 		
 	}
