@@ -138,6 +138,10 @@
 			color : #333;
 			max-width : 100%;
 		}
+		
+		.placeholder,
+		::-webkit-input-placeholder { color : #a9a9a9; }
+		:-moz-input-placeholder 	{ color : #a9a9a9; }
 				
 		.input-tiny 	{ width : 2rem; }
 		.input-small	{ width : 6rem; }
