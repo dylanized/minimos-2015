@@ -107,9 +107,7 @@
 			max-width : 100%;
 		}		
 		
-		hr {
-			color : #111;
-		}
+		hr { color : #111; }
 		
 	/* forms */
 	
@@ -402,17 +400,17 @@
 		
 	/* custom colors */		
 		
-		.color-alpha	{ color : #111; }
-		.bgd-alpha		{ background-color : #111; }
-		.border-alpha	{ border-color : #111; }
+		.color-alpha			{ color : #111; }
+		.bgd-alpha				{ background-color : #111; }
+		.border-alpha			{ border-color : #111; }
 
-		.color-beta		{ color : #999; }
-		.bgd-beta		{ background-color : #999; }
-		.border-beta	{ border-color : #999; }
+		.color-beta				{ color : #999; }
+		.bgd-beta				{ background-color : #999; }
+		.border-beta			{ border-color : #999; }
 
-		.color-omega	{ color : #e8e8e8; }
-		.bgd-omega		{ background-color : #e8e8e8; }
-		.border-omega	{ border-color : #e8e8e8; }
+		.color-omega			{ color : #e8e8e8; }
+		.bgd-omega				{ background-color : #e8e8e8; }
+		.border-omega			{ border-color : #e8e8e8; }
 		
 /* device styles */
 
