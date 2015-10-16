@@ -36,7 +36,7 @@
 
 <body <?php body_class(); ?>>
 
-<header class="row header pad-v-30 border-bottom color-lite">
+<header class="row header pad-v-30 border-bottom color-beta">
 
 	<div class="container grid">
 	

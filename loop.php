@@ -15,7 +15,7 @@
 					<?php } ?>
 					
 					<?php if (!is_page()) { ?>					
-						<p class="post-header-meta color-lite"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>						
+						<p class="post-header-meta color-beta"><small>By <?php the_author(); ?> <?php the_time('F jS'); ?></small></p>						
 					<?php } ?>
 					
 				</header>
@@ -30,7 +30,7 @@
 			
 			<?php if (!is_page()) { ?>
 			
-				<footer class="post-footer color-lite">
+				<footer class="post-footer color-beta">
 				
 					<p><small><?php the_time('F jS, Y'); ?> | <?php the_category(', '); ?> | <?php the_tags(); ?></small></p>
 				
