@@ -164,8 +164,6 @@
 			vertical-align : bottom;
 			outline : none;
 			font-family : Helvetica, Arial, sans-serif;
-			opacity : 1.0;
-			transition : opacity 0.3s;	
 			text-align : center;		
 		}
 		
@@ -177,7 +175,7 @@
 		.button:hover,		
 		input[type=submit]:active,
 		button:active,
-		.button:active		{ color : #fff; text-decoration : none; opacity : 0.7; }
+		.button:active		{ color : #fff; text-decoration : underline; }
 		
 		
 		@media only screen and (min-width: 769px) {	
