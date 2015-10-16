@@ -394,16 +394,31 @@
 			
 		}
 		
-	/* custom colors */		
-		
+	/* custom colors */	
+			
+		/* primary  */
 		.color-alpha			{ color : #111; }
 		.bgd-alpha				{ background-color : #111; }
 		.border-alpha			{ border-color : #111; }
+		
+		.color-alpha a:link,
+		.color-alpha a:visited	{ }
 
+		.color-alpha a:hover,
+		.color-alpha a:active	{ }		
+
+		/* secondary */
 		.color-beta				{ color : #999; }
 		.bgd-beta				{ background-color : #999; }
 		.border-beta			{ border-color : #999; }
 
+		.color-beta a:link,
+		.color-beta a:visited	{ color : #999; text-decoration : none; }
+
+		.color-beta a:hover,
+		.color-beta a:active	{ color : red; text-decoration : none; }	
+
+		/* ancillary */
 		.color-omega			{ color : #e8e8e8; }
 		.bgd-omega				{ background-color : #e8e8e8; }
 		.border-omega			{ border-color : #e8e8e8; }
