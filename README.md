@@ -1,6 +1,6 @@
 # Minimos - A Simple Website Framework
 
-This download contains a few good parts:
+This download contains:
 
 ## HTML Boilerplate
 
@@ -19,7 +19,6 @@ This download contains a few good parts:
 ## Utility Class Library
 
 - css/utility.css
-- css/colors.css
 
 ## Other Goodies
 
