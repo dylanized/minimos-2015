@@ -337,6 +337,11 @@
 	.ls-8 		{ letter-spacing : 0.8px; }
 	.ls-9 		{ letter-spacing : 0.9px; }
 	.ls-10 		{ letter-spacing : 1.0px; }
+	.ls-11 		{ letter-spacing : 1.1px; }
+	.ls-12 		{ letter-spacing : 1.2px; }
+	.ls-13 		{ letter-spacing : 1.3px; }
+	.ls-14 		{ letter-spacing : 1.4px; }
+	.ls-15 		{ letter-spacing : 1.5px; }
 	.ls-auto	{ letter-spacing : auto; }	
 	
 /* misc */		
