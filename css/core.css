@@ -387,13 +387,16 @@
 		.indent 				{ margin-left : 1.5rem !important; }
 				
 		.width-tiny 			{ width : 2rem; }
-		.width-small			{ width : 6rem; }
-
-		/* large inputs (large tablets and up ) */		
-		@media only screen and (min-width: 769px) {	
+		.width-small			{ width : 6rem; }	
+		.width-medium			{ width : 12rem; }
+		.width-large			{ width : 20.5rem; }		
 		
-			.width-medium		{ width : 12rem; }
-			.width-large		{ width : 20.5rem; }
+
+		/* large inputs (large tablets and down ) */		
+		@media only screen and (min-width: 769px) {	
+
+			.width-medium			{ width : 100%; }
+			.width-large			{ width : 100%; }		
 			
 		}
 		
