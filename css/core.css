@@ -396,7 +396,7 @@
 		
 	/* custom colors */	
 			
-		/* alpha  */
+		/* alpha - black  */
 		.color-alpha			{ color : #111; }
 		.bgd-alpha				{ background-color : #111; }
 		.border-alpha			{ border-color : #111; }
@@ -407,7 +407,7 @@
 		.color-alpha a:hover,
 		.color-alpha a:active	{ }		
 
-		/* beta */
+		/* beta - light gray */
 		.color-beta				{ color : #999; }
 		.bgd-beta				{ background-color : #999; }
 		.border-beta			{ border-color : #999; }
@@ -418,12 +418,12 @@
 		.color-beta a:hover,
 		.color-beta a:active	{ color : red; text-decoration : underline; }
 		
-		/* delta */
+		/* delta - light black */
 		.color-delta			{ color : #333; }
 		.bgd-delta				{ background-color : #333; }
 		.border-delta			{ border-color : #333; }		
 
-		/* omega */
+		/* omega - very light gray */
 		.color-omega			{ color : #e8e8e8; }
 		.bgd-omega				{ background-color : #e8e8e8; }
 		.border-omega			{ border-color : #e8e8e8; }
