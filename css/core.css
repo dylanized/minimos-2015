@@ -158,7 +158,7 @@
 	
 		button,
 		.button {
-			background-color : #555;
+			background-color : #999;
 			color : #fff;
 			padding : .75rem 1.5rem .75rem 1.5rem;
 			border : none;
@@ -303,14 +303,14 @@
 	
 		.table {
 			border-collapse : collapse;
-			border : 1px solid #555;
+			border : 1px solid #999;
 			margin : 0 0 1rem 0;
 		}
 
 		.table th,
 		.table td {
 			padding : .5rem;
-			border : 1px solid #555;
+			border : 1px solid #999;
 			display : table-cell;	
 		}		
 
@@ -361,17 +361,17 @@
 		.inline input { margin-right : .25rem; }
 		.inline label { margin-right : 1rem; }
 		
-	/* opacity helper */
+	/* hover effect */
 	
-		.opacity {
+		.hover {
 			opacity : 1.0;
 			transition : opacity 0.3s;
 		}
 		
-		.opacity:hover,
-		.opacity:active,
-		.opacity:hover,
-		.opacity:active {
+		.hover:hover,
+		.hover:active,
+		.hover:hover,
+		.hover:active {
 			opacity : 0.7 !important;
 			text-decoration : none !important;
 		}		
@@ -415,17 +415,17 @@
 		
 	/* custom colors */		
 		
-		.color-minimos-black	{ color : #111; }
-		.bgd-minimos-black		{ background-color : #111; }
-		.border-minimos-black	{ border-color : #111; }
+		.color-priority-1	{ color : #111; }
+		.bgd-priority-1		{ background-color : #111; }
+		.border-priority-1	{ border-color : #111; }
 
-		.color-minimos-silver	{ color : #e8e8e8; }
-		.bgd-minimos-silver		{ background-color : #e8e8e8; }
-		.border-minimos-silver	{ border-color : #e8e8e8; }
+		.color-priority-2	{ color : #999; }
+		.bgd-priority-2		{ background-color : #999; }
+		.border-priority-2	{ border-color : #999; }
 
-		.color-minimos-slate	{ color : #555; }
-		.bgd-minimos-slate		{ background-color : #555; }
-		.border-minimos-slate	{ border-color : #555; }
+		.color-priority-3	{ color : #e8e8e8; }
+		.bgd-priority-3		{ background-color : #e8e8e8; }
+		.border-priority-3	{ border-color : #e8e8e8; }
 	
 	/* custom fonts */	
 		
