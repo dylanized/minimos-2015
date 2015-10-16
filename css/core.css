@@ -416,16 +416,16 @@
 	/* custom colors */		
 		
 		.color-minimos-black	{ color : #111; }
-		.bgd-minimos-black		{ color : #111; }
-		.border-minimos-black	{ color : #111; }
+		.bgd-minimos-black		{ background-color : #111; }
+		.border-minimos-black	{ border-color : #111; }
 
 		.color-minimos-silver	{ color : #e8e8e8; }
-		.bgd-minimos-silver		{ color : #e8e8e8; }
-		.border-minimos-silver	{ color : #e8e8e8; }
+		.bgd-minimos-silver		{ background-color : #e8e8e8; }
+		.border-minimos-silver	{ border-color : #e8e8e8; }
 
 		.color-minimos-slate	{ color : #555; }
-		.bgd-minimos-slate		{ color : #555; }
-		.border-minimos-slate	{ color : #555; }
+		.bgd-minimos-slate		{ background-color : #555; }
+		.border-minimos-slate	{ border-color : #555; }
 	
 	/* custom fonts */	
 		
