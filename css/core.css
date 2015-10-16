@@ -140,9 +140,9 @@
 		}
 				
 		.input-tiny 	{ width : 2rem; }
-		.input-short	{ width : 6rem; }
+		.input-small	{ width : 6rem; }
 		.input-medium	{ width : 12rem; }
-		.input-long		{ width : 20.5rem; }
+		.input-large	{ width : 20.5rem; }
 			
 	/* buttons */
 	
