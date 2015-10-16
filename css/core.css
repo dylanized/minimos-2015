@@ -113,12 +113,12 @@
 		
 	/* forms */
 	
-		fieldset {
+		fieldset, .fieldset {
 			border : none;
 			padding : 0;
 		}
 
-		label {
+		label, .label {
 			font-weight : bold;
 			display : block;
 			margin-bottom : .25rem;
@@ -129,7 +129,8 @@
 		input[type=password],
 		input[type=tel],
 		input[type=num],				
-		textarea {
+		textarea,
+		.input {
 			padding : .25rem;
 			border : 1px solid #ccc;
 			margin-bottom : .25rem;
