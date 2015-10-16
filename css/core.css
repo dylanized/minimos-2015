@@ -56,8 +56,8 @@
 			margin : 0 0 20px 0;
 		}
 		
-		h1, .h1 		{ font-size : 2.0em; color : #000; }
-		h2, .h2			{ font-size : 2.0em; color : #000; }
+		h1, .h1 		{ font-size : 2.0em; color : #111; }
+		h2, .h2			{ font-size : 2.0em; color : #111; }
 		h3, .h3			{ font-size : 1.7em; }
 		h4, .h4			{ font-size : 1.4em; }
 		h5, .h5			{ font-size : 1.0em; font-weight : bold; }
@@ -66,7 +66,7 @@
 		h1 a:link, 
 		h1 a:visited 	{ color : #ccc; text-decoration : none; }
 		h1 a:hover,
-		h1 a:active 	{ color : #000; text-decoration : underline; }
+		h1 a:active 	{ color : #111; text-decoration : underline; }
 	
 	/* content */
 	
@@ -108,7 +108,7 @@
 		}		
 		
 		hr {
-			color : #000;
+			color : #111;
 		}
 		
 	/* forms */
@@ -135,13 +135,13 @@
 			border : 1px solid #ccc;
 			margin-bottom : .25rem;
 			display : inline-block;
-			color : #333;
+			color : #111;
 			max-width : 100%;
 		}
 		
 		.placeholder,
-		::-webkit-input-placeholder { color : #a9a9a9; }
-		:-moz-input-placeholder 	{ color : #a9a9a9; }
+		::-webkit-input-placeholder { color : #999; }
+		:-moz-input-placeholder 	{ color : #999; }
 				
 		.input-tiny 	{ width : 2rem; }
 		.input-small	{ width : 6rem; }
@@ -234,7 +234,7 @@
 		
 		.lead { font-size : 1.25em; }
 		
-		.mark { background-color : #eee; border-radius : 2px; }
+		.mark { background-color : #e8e8e8; border-radius : 2px; }
 		
 		.section { margin-bottom : 2.5rem; }		
 
@@ -255,7 +255,7 @@
 			display: inline-block;
 			padding: .25rem;
 			background-color: #fff;
-			border: 1px solid #ddd;
+			border: 1px solid #e8e8e8;
 		}	
 		
 		.alignleft,
@@ -324,7 +324,7 @@
 	/* panel */
 	
 		.panel {
-			background-color : #eee;
+			background-color : #e8e8e8;
 			border-radius : .5rem;
 			padding : 0 2rem 0 2rem;
 		}				
@@ -403,7 +403,7 @@
 		.medium					{ width : 8rem; }
 		.long					{ width : 16rem; }
 		
-	/* custom colors */
+	/* color schemes */
 	
 		.color-lite				{ color : #999; }	
 		
@@ -413,17 +413,23 @@
 		.color-lite a:hover,
 		.color-lite a:active 	{ color : red; text-decoration : underline; }
 		
+	/* custom colors */		
+		
 		.color-minimos-black	{ color : #111; }
 		.bgd-minimos-black		{ color : #111; }
 		.border-minimos-black	{ color : #111; }
 
-		.color-minimos-gray		{ color : #e8e8e8; }
-		.bgd-minimos-gray		{ color : #e8e8e8; }
-		.border-minimos-gray	{ color : #e8e8e8; }
+		.color-minimos-silver	{ color : #e8e8e8; }
+		.bgd-minimos-silver		{ color : #e8e8e8; }
+		.border-minimos-silver	{ color : #e8e8e8; }
+
+		.color-minimos-slate	{ color : #555; }
+		.bgd-minimos-slate		{ color : #555; }
+		.border-minimos-slate	{ color : #555; }
 	
 	/* custom fonts */	
 		
-		.font-custom			{ font-family : "Open Sans", Helvetica, Arial, sans-serif !important; }	
+		.font-open-sans			{ font-family : "Open Sans", Helvetica, Arial, sans-serif; }	
 		
 /* device styles */
 
