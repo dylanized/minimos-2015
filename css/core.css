@@ -412,6 +412,14 @@
 		
 		.color-lite a:hover,
 		.color-lite a:active 	{ color : red; text-decoration : underline; }
+		
+		.color-minimos-black	{ color : #111; }
+		.bgd-minimos-black		{ color : #111; }
+		.border-minimos-black	{ color : #111; }
+
+		.color-minimos-gray		{ color : #e8e8e8; }
+		.bgd-minimos-gray		{ color : #e8e8e8; }
+		.border-minimos-gray	{ color : #e8e8e8; }
 	
 	/* custom fonts */	
 		
