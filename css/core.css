@@ -1,6 +1,6 @@
 /* MINIMOS CORE CSS */
 
-/* base styles */
+/* global */
 
 	html { font-size : 125%; }
 
@@ -17,11 +17,6 @@
 	
 	a:hover,
 	a:active 	{ color : red; font-weight : normal; text-decoration : underline; }
-	
-	img {
-		vertical-align : bottom;
-		max-width : 100%;
-	}
 	
 /* layout helpers */	
 	
@@ -45,7 +40,7 @@
 		padding : 0 1rem 0 1rem;
 	}	
 	
-/* default content */	
+/* default elements */	
 	
 	/* headers */
 
@@ -106,6 +101,11 @@
 			padding : 1.25rem 6% 1px 6%;
 			color : #999;
 		}
+		
+		img {
+			vertical-align : bottom;
+			max-width : 100%;
+		}		
 		
 		hr {
 			color : #000;
@@ -193,7 +193,8 @@
 			margin-bottom : 0;
 		}
 		
-		@media only screen and (min-width: 769px) {	
+		@media only screen and (min-width: 769px) {
+			
 			.home .header .menu {
 				float : right;
 				margin-top : 1.75rem;
@@ -202,6 +203,7 @@
 				display : inline-block;
 				margin-left : 1.25rem;	
 			}			
+			
 		}
 		
 		.header li.current { text-decoration : underline; }
