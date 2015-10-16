@@ -118,9 +118,7 @@
 			padding : 0;
 		}
 
-		label { }
-			
-		.label {
+		label {
 			font-weight : bold;
 			display : block;
 			margin-bottom : .25rem;
@@ -128,21 +126,16 @@
 	
 		input[type=text],
 		input[type=email],
-		textarea { }
-
-		.input {
+		input[type=password],
+		input[type=tel],
+		input[type=num],				
+		textarea {
 			padding : .25rem;
 			border : 1px solid #ccc;
 			margin-bottom : .25rem;
 			display : inline-block;
-		}	
-		
-		textarea {
-			color : #999;
-		}
-
-		textarea:focus {
-			color : #000;
+			color : #333;
+			max-width : 100%;
 		}
 				
 		.input-tiny 	{ width : 2rem; }
