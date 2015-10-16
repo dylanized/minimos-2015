@@ -8,23 +8,21 @@
 
 	function minimos_load_styles() {
 	
-		// libraries
-		wp_enqueue_style("minimos-normalize", get_template_directory_uri() . "/lib/css/normalize.css");
-		wp_enqueue_style("minimos-grid", get_template_directory_uri() . "/lib/css/simplegrid.css");			
+		// base
+		wp_enqueue_style("normalize-css", get_template_directory_uri() . "/lib/css/normalize.css");
+		wp_enqueue_style("grid-css", get_template_directory_uri() . "/lib/css/simplegrid.css");			
 		
-		// theme css
-		wp_enqueue_style("theme-core", get_template_directory_uri() . "/css/core.css");			
-		wp_enqueue_style("theme-skins", get_template_directory_uri() . "/css/skins.css");
+		// theme 
+		wp_enqueue_style("core-css", get_template_directory_uri() . "/css/core.css");			
 		
-		// utility css
-		wp_enqueue_style("minimos-utility", get_template_directory_uri() . "/css/utility.css");
-		wp_enqueue_style("minimos-colors", get_template_directory_uri() . "/css/colors.css");			
+		// utility 
+		wp_enqueue_style("utility-css", get_template_directory_uri() . "/css/utility.css");
 				
-		// mobile devices		
-		wp_enqueue_style("theme-media", get_template_directory_uri() . "/css/media.css");			
+		// devices		
+		wp_enqueue_style("devices-css", get_template_directory_uri() . "/css/media.css");			
 		
 		// site overrides
-		wp_enqueue_style("theme-overrides", get_template_directory_uri() . "/style.css");					
+		wp_enqueue_style("overrides-css", get_template_directory_uri() . "/style.css");					
 	
 	}
 
