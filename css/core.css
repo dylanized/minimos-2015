@@ -367,10 +367,13 @@
 		.margin-top				{ margin : 1rem; }
 		.margin-bottom			{ margin : 1rem; }
 		.margin-v				{ margin-top : 1rem; margin-bottom : 1rem; }
+		.margin-h				{ margin-left : 1rem; margin-right : 1rem; }
 	
 		.pad					{ padding : 1rem; }
 		.pad-top				{ padding-top : 1rem; }
 		.pad-bottom				{ padding-bottom : 1rem; }
+		.pad-v					{ padding-bottom : 1rem; padding-top : 1rem; }
+		.pad-h					{ padding-left : 1rem; padding-right : 1rem; }
 	
 		.border					{ border : 1px solid #e8e8e8; }	
 		.border-top				{ border-top : 1px solid #e8e8e8; }
