@@ -2,7 +2,7 @@
 
 /* global */
 
-	html { font-size : 125%; }
+	html { font-size : 100%; }
 
 	body {
 		background : #fff;	
@@ -145,8 +145,14 @@
 				
 		.input-tiny 	{ width : 2rem; }
 		.input-small	{ width : 6rem; }
-		.input-medium	{ width : 12rem; }
-		.input-large	{ width : 20.5rem; }
+
+		/* large inputs (large tablets and up ) */		
+		@media only screen and (min-width: 769px) {	
+		
+			.input-medium	{ width : 12rem; }
+			.input-large	{ width : 20.5rem; }
+			
+		}
 			
 	/* buttons */
 	
@@ -176,8 +182,11 @@
 		.button:active		{ color : #fff; text-decoration : underline; }
 		
 		
-		@media only screen and (min-width: 769px) {	
+		/* small buttons (large tablets and up) */
+		@media only screen and (min-width: 769px) {
+			
 			button, .button { display : inline-block; }
+			
 		}
 
 /* page template */
@@ -189,12 +198,14 @@
 			margin-bottom : 0;
 		}
 		
+		/* menu positioning (large tablets and up) */
 		@media only screen and (min-width: 769px) {
 			
 			.home .header .menu {
 				float : right;
 				margin-top : 1.75rem;
-			}				
+			}
+							
 			.header li {
 				display : inline-block;
 				margin-left : 1.25rem;	
@@ -255,6 +266,7 @@
 			margin : 0 auto 1rem auto;
 		}		
 		
+		/* image alignment (large tablets and up ) */
 		@media only screen and (min-width: 769px) {			
 	
 			.alignleft {
@@ -406,27 +418,29 @@
 		.font-custom			{ font-family : "Open Sans", Helvetica, Arial, sans-serif !important; }	
 		
 /* device styles */
-		
-	/* wide screens */
-	@media only screen and (min-width: 1160px) {
-	
-	}
-	
-	/* big devices */
-	@media only screen and (max-width: 979px) {
-	
-	}
-		
-	/* medium devices */
-	@media only screen and (max-width: 768px) {	
-		
-		html { font-size : 115%; }
-		
-	}
-	
-	/* small devices */
+
+	/* small phones only */
 	@media only screen and (max-width: 480px) {
-	
-		html { font-size : 100%; }
 		
 	}		
+	
+	/* large phones and up */
+	@media only screen and (min-width: 481px) {
+		html { font-size : 105%; }
+	}			
+		
+	/* large tablets and up */
+	@media only screen and (min-width: 769px) {
+		html { font-size : 115%; }	
+	}
+
+	/* desktop and up */
+	@media only screen and (min-width: 980px) {
+		html { font-size : 125%; }	
+	}
+			
+	/* wide screens */
+	@media only screen and (min-width: 1160px) {
+		html { font-size : 135%; }	
+	}
+	
