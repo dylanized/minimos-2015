@@ -26,8 +26,6 @@
 		padding : 0;		
 	}
 	
-	.row.pad { padding : 2.5rem 0 1.5rem 0; }
-	
 	.row:after {
 		content: "";
 		display: table;
@@ -152,7 +150,7 @@
 			padding : .75rem 1.5rem .75rem 1.5rem;
 			border : none;
 			margin : 0 1px .5rem 1px;
-			display : block;		
+			display : inline-block;		
 			line-height : 1.0;
 			vertical-align : bottom;
 			outline : none;
@@ -171,10 +169,10 @@
 		.button:active		{ color : #fff; text-decoration : underline; }
 		
 		
-		/* small buttons (large tablets and up) */
-		@media only screen and (min-width: 769px) {
+		/* big buttons (large tablets and down) */
+		@media only screen and (max-width: 768px) {
 			
-			button, .button { display : inline-block; }
+			button, .button { display : block; }
 			
 		}
 
@@ -425,7 +423,7 @@
 		.bgd-delta				{ background-color : #333; }
 		.border-delta			{ border-color : #333; }		
 
-		/* ancillary */
+		/* omega */
 		.color-omega			{ color : #e8e8e8; }
 		.bgd-omega				{ background-color : #e8e8e8; }
 		.border-omega			{ border-color : #e8e8e8; }
