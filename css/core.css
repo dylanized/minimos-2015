@@ -399,3 +399,29 @@
 	/* custom fonts */	
 		
 		.font-custom			{ font-family : "Open Sans", Helvetica, Arial, sans-serif !important; }	
+		
+/* device styles */
+		
+	/* wide screens */
+	@media only screen and (min-width: 1160px) {
+	
+	}
+	
+	/* big devices */
+	@media only screen and (max-width: 979px) {
+	
+	}
+		
+	/* medium devices */
+	@media only screen and (max-width: 768px) {	
+		
+		html { font-size : 115%; }
+		
+	}
+	
+	/* small devices */
+	@media only screen and (max-width: 480px) {
+	
+		html { font-size : 100%; }
+		
+	}		

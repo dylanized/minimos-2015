@@ -18,9 +18,6 @@
 		// utility 
 		wp_enqueue_style("utility-css", get_template_directory_uri() . "/css/utility.css");
 				
-		// devices		
-		wp_enqueue_style("devices-css", get_template_directory_uri() . "/css/media.css");			
-		
 		// site overrides
 		wp_enqueue_style("overrides-css", get_template_directory_uri() . "/style.css");					
 	
