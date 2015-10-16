@@ -227,16 +227,13 @@
 
 	/* content helpers */
 	
-		.display {
-			font-family : Helvetica, Arial, sans-serif;
-			font-weight : bold;
-		}
+		.display 	{ font-family : Helvetica, Arial, sans-serif; }
 		
-		.lead { font-size : 1.25em; }
+		.lead 		{ font-size : 1.25em; }
 		
-		.mark { background-color : #e8e8e8; border-radius : 2px; }
+		.mark 		{ background-color : #e8e8e8; border-radius : 2px; }
 		
-		.section { margin-bottom : 2.5rem; }		
+		.section 	{ margin-bottom : 2.5rem; }		
 
 	/* posts */
 	
@@ -403,33 +400,19 @@
 		.medium					{ width : 8rem; }
 		.long					{ width : 16rem; }
 		
-	/* color schemes */
-	
-		.color-lite				{ color : #999; }	
-		
-		.color-lite a:link,
-		.color-lite a:visited 	{ color : #999; text-decoration : none; }
-		
-		.color-lite a:hover,
-		.color-lite a:active 	{ color : red; text-decoration : underline; }
-		
 	/* custom colors */		
 		
-		.color-priority-1	{ color : #111; }
-		.bgd-priority-1		{ background-color : #111; }
-		.border-priority-1	{ border-color : #111; }
+		.color-alpha	{ color : #111; }
+		.bgd-alpha		{ background-color : #111; }
+		.border-alpha	{ border-color : #111; }
 
-		.color-priority-2	{ color : #999; }
-		.bgd-priority-2		{ background-color : #999; }
-		.border-priority-2	{ border-color : #999; }
+		.color-beta		{ color : #999; }
+		.bgd-beta		{ background-color : #999; }
+		.border-beta	{ border-color : #999; }
 
-		.color-priority-3	{ color : #e8e8e8; }
-		.bgd-priority-3		{ background-color : #e8e8e8; }
-		.border-priority-3	{ border-color : #e8e8e8; }
-	
-	/* custom fonts */	
-		
-		.font-open-sans			{ font-family : "Open Sans", Helvetica, Arial, sans-serif; }	
+		.color-omega	{ color : #e8e8e8; }
+		.bgd-omega		{ background-color : #e8e8e8; }
+		.border-omega	{ border-color : #e8e8e8; }
 		
 /* device styles */
 
