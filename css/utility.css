@@ -512,23 +512,23 @@
 	.border-super-silver 	{ border-color: #ddd; }
 	.border-super-black 	{ border-color: #111; }
 
-	.hover-super-navy:hover 	{ border-color: #001F3F; }
-	.hover-super-blue:hover		{ border-color: #0074D9; }
-	.hover-super-aqua:hover 	{ border-color: #7FDBFF; }
-	.hover-super-teal:hover 	{ border-color: #39CCCC; }
-	.hover-super-olive:hover	{ border-color: #3D9970; }
-	.hover-super-green:hover 	{ border-color: #2ECC40; }
-	.hover-super-lime:hover 	{ border-color: #01FF70; }
-	.hover-super-yellow:hover 	{ border-color: #FFDC00; }
-	.hover-super-orange:hover 	{ border-color: #FF851B; }
-	.hover-super-red:hover 		{ border-color: #FF4136; }
-	.hover-super-fuchsia:hover 	{ border-color: #F012BE; }
-	.hover-super-purple:hover 	{ border-color: #B10DC9; }
-	.hover-super-maroon:hover 	{ border-color: #85144B; }
-	.hover-super-white:hover 	{ border-color: #fff; }
-	.hover-super-gray:hover 	{ border-color: #aaa; }
-	.hover-super-silver:hover 	{ border-color: #ddd; }
-	.hover-super-black:hover 	{ border-color: #111; }		
+	.hover-super-navy:hover 	{ color: #001F3F !important }
+	.hover-super-blue:hover		{ color: #0074D9 !important }
+	.hover-super-aqua:hover 	{ color: #7FDBFF !important }
+	.hover-super-teal:hover 	{ color: #39CCCC !important }
+	.hover-super-olive:hover	{ color: #3D9970 !important }
+	.hover-super-green:hover 	{ color: #2ECC40 !important }
+	.hover-super-lime:hover 	{ color: #01FF70 !important }
+	.hover-super-yellow:hover 	{ color: #FFDC00 !important }
+	.hover-super-orange:hover 	{ color: #FF851B !important }
+	.hover-super-red:hover 		{ color: #FF4136 !important }
+	.hover-super-fuchsia:hover 	{ color: #F012BE !important }
+	.hover-super-purple:hover 	{ color: #B10DC9 !important }
+	.hover-super-maroon:hover 	{ color: #85144B !important }
+	.hover-super-white:hover 	{ color: #fff !important }
+	.hover-super-gray:hover 	{ color: #aaa !important }
+	.hover-super-silver:hover 	{ color: #ddd !important }
+	.hover-super-black:hover 	{ color: #111 !important }		
 				
 /* x11 colors - color, bgd, border, hover */
 
