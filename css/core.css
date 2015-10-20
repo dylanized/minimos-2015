@@ -442,7 +442,7 @@
 	
 	/* large phones and up */
 	@media only screen and (min-width: 481px) {
-		html { font-size : 105%; }
+		html { font-size : 107.5%; }
 	}			
 		
 	/* large tablets and up */
