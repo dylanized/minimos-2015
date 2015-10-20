@@ -337,13 +337,10 @@
 	
 		.inline label,	
 		.inline input,
-		.inline button {
-			display : inline-block;
-			vertical-align : middle; 
-		}		
+		.inline button 	{ display : inline-block; }	
 		
-		.inline input { margin-right : .25rem; }
-		.inline label { margin-right : 1rem; }
+		.inline input 	{ margin-right : .25rem; }
+		.inline label 	{ margin-right : 1rem; }
 		
 	/* hover effect */
 	
