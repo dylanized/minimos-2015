@@ -26,6 +26,8 @@
 		padding : 0;		
 	}
 	
+	.row.pad { padding : 2rem 0; }
+	
 	.row:after {
 		content: "";
 		display: table;
