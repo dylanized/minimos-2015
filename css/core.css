@@ -170,8 +170,8 @@
 		.button:active		{ color : #fff; text-decoration : underline; }
 		
 		
-		/* big buttons (large tablets and down) */
-		@media only screen and (max-width: 768px) {
+		/* big buttons (xs and sm) */
+		@media only screen and (max-width: 719px) {
 			
 			button, .button { display : block; }
 			
@@ -186,8 +186,8 @@
 			margin-bottom : 0;
 		}
 		
-		/* menu positioning (large tablets and up) */
-		@media only screen and (min-width: 769px) {
+		/* menu positioning (md and larger) */
+		@media only screen and (min-width: 720px) {
 			
 			.home .header .menu {
 				float : right;
@@ -251,8 +251,8 @@
 			margin : 0 auto 1rem auto;
 		}		
 		
-		/* image alignment (large tablets and up ) */
-		@media only screen and (min-width: 769px) {			
+		/* image alignment (md and larger) */
+		@media only screen and (min-width: 720px) {			
 	
 			.alignleft {
 				float: left;
@@ -390,8 +390,8 @@
 		.width-large			{ width : 20.5rem; }		
 		
 
-		/* large inputs (small tablets and down ) */		
-		@media only screen and (max-width: 768px) {	
+		/* large inputs (xs and sm) */		
+		@media only screen and (max-width: 719px) {	
 
 			.width-medium			{ width : 100%; }
 			.width-large			{ width : 100%; }		
@@ -439,27 +439,27 @@
 /* device styles */
 
 	/* small phones only */
-	@media only screen and (max-width: 480px) {
+	@media only screen and (max-width: 539px) {
 		
 	}		
 	
 	/* large phones and up */
-	@media only screen and (min-width: 481px) {
+	@media only screen and (min-width: 540px) {
 		html { font-size : 107.5%; }
 	}			
 		
 	/* large tablets and up */
-	@media only screen and (min-width: 769px) {
+	@media only screen and (min-width: 720px) {
 		html { font-size : 115%; }	
 	}
 
 	/* desktop and up */
-	@media only screen and (min-width: 980px) {
+	@media only screen and (min-width: 960px) {
 		html { font-size : 125%; }	
 	}
 			
 	/* wide screens */
-	@media only screen and (min-width: 1160px) {
+	@media only screen and (min-width: 1200px) {
 		html { font-size : 135%; }	
 	}
 	
