@@ -184,7 +184,7 @@
 			margin-bottom : 0;
 		}
 		
-		/* menu positioning (md and larger) */
+		/* menu positioning (md+) */
 		@media only screen and (min-width: 720px) {
 			
 			.home .header .menu {
@@ -249,7 +249,7 @@
 			margin : 0 auto 1rem auto;
 		}		
 		
-		/* image alignment (md and larger) */
+		/* image alignment (md+) */
 		@media only screen and (min-width: 720px) {			
 	
 			.alignleft {
