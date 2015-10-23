@@ -436,27 +436,27 @@
 		
 /* device styles */
 
-	/* small phones only */
+	/* xs */
 	@media only screen and (max-width: 539px) {
 		
 	}		
 	
-	/* large phones and up */
+	/* sm+ */
 	@media only screen and (min-width: 540px) {
 		html { font-size : 107.5%; }
 	}			
 		
-	/* large tablets and up */
+	/* md+ */
 	@media only screen and (min-width: 720px) {
 		html { font-size : 115%; }	
 	}
 
-	/* desktop and up */
+	/* lg+ */
 	@media only screen and (min-width: 960px) {
 		html { font-size : 125%; }	
 	}
 			
-	/* wide screens */
+	/* xl */
 	@media only screen and (min-width: 1200px) {
 		html { font-size : 135%; }	
 	}
