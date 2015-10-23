@@ -167,8 +167,7 @@
 		input[type=submit]:active,
 		button:active,
 		.button:active		{ color : #fff; text-decoration : underline; }
-		
-		
+			
 		/* big buttons (xs and sm) */
 		@media only screen and (max-width: 719px) {
 			
