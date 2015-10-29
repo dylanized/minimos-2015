@@ -16,13 +16,16 @@ This download contains:
 - functions.php
 - css, js, and lib folders
 
+## CSS Reset
+
+- css/reset.css
+
 ## Utility Class Library
 
 - css/utility.css
 
 ## Other Goodies
 
-- normalize.css
 - simplegrid.css
 - Font Awesome
 - Google Fonts
