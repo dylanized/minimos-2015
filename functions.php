@@ -9,7 +9,7 @@
 	function minimos_load_styles() {
 	
 		// base
-		wp_enqueue_style("normalize-css", get_template_directory_uri() . "/lib/css/canonical.min.css");
+		wp_enqueue_style("reset-css", get_template_directory_uri() . "/css/reset.css");
 		wp_enqueue_style("grid-css", get_template_directory_uri() . "/lib/css/simplegrid.css");			
 		
 		// theme 
