@@ -60,7 +60,9 @@
 	}
 	
 	b,
-	strong { font-weight: bold; }	
+	strong,
+	.strong,
+	.bold { font-weight: bold; }	
 	
 	sub,
 	sup,
@@ -81,7 +83,9 @@
 	}
 	
 	ul { list-style-type : square; }
-	
+
+	ol { margin-left : 2.25rem; }
+		
 	li {
 		margin : 0 0 0.25rem 0;
 		padding : 0;
