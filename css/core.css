@@ -123,12 +123,6 @@
 			font-weight : normal;
 			display : inline-block;
 			margin-bottom : .25rem;
-		}	
-		
-		label.strong,
-		.label.strong { 
-			font-weight : bold;
-			display : block;
 		}
 	
 		input[type=text],
