@@ -55,6 +55,7 @@
 			letter-spacing : 0;
 			margin : 0 0 1rem 0;
 			padding : 0;
+			line-height : 1.3;
 		}
 		
 		h1, .h1 		{ font-size : 2.0em; margin-bottom : 1rem; }
