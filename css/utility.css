@@ -6,7 +6,7 @@
 	.lowercase 			{ text-transform : lowercase; }	
 	.underline 			{ text-decoration : underline; }
 	.strike 			{ text-decoration : line-through; }	
-	.bold				{ font-weight : bold; }
+	.bold, .strong		{ font-weight : bold; }
 	.normal				{ font-weight : normal; }
 	.italics, .em		{ font-style : italics; }
 	.default			{ font-style : default; }
