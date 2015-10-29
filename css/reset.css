@@ -19,7 +19,8 @@
 	section,
 	details,
 	summary,
-	main {
+	main,
+	article {
 	  display: block;
 	  margin : 0;
 	  padding : 0;
