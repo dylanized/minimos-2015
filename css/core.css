@@ -124,6 +124,12 @@
 			display : inline-block;
 			margin-bottom : .25rem;
 		}	
+		
+		label.strong,
+		.label.strong { 
+			display : strong;
+			display : block;
+		}
 	
 		input[type=text],
 		input[type=email],
