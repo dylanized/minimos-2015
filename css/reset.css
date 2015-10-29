@@ -106,14 +106,11 @@
 		vertical-align : bottom;
 	}
 	
-	table, dt {
-		margin : 0 0 1rem 0;
-		padding : 0;
-	}	
-	
 	table {
 	  border-collapse: collapse;
-	  border-spacing: 0;			
+	  border-spacing: 0;
+	  margin : 0;
+	  padding : 0;			
 	}
 	
 	td,
