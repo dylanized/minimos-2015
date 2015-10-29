@@ -316,6 +316,19 @@
 		
 		.table td { }	
 		
+	/* def lists */
+		
+		dt, dd {
+			display : block;
+			margin : 0 0 1rem 0;
+			padding : 0;
+		}
+		
+		dt {
+			font-weight : bold;
+			margin-bottom : 0;
+		}		
+		
 	/* panel */
 	
 		.panel {
