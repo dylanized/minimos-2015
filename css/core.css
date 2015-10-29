@@ -221,7 +221,10 @@
 		
 		.mark 		{ background-color : #e8e8e8; border-radius : 2px; }
 		
-		.section 	{ margin-bottom : 2.5rem; }		
+		.section,
+		.push 		{ margin-bottom : 2.5rem; }	
+		
+		.push-top	{ margin-top : 2.5rem; }
 
 	/* posts */
 	
