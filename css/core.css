@@ -58,12 +58,12 @@
 			line-height : 1.3;
 		}
 		
-		h1, .h1 		{ font-size : 2.0em; margin-bottom : 2.3rem; }
-		h2, .h2			{ font-size : 1.8em; margin-bottom : 2.1rem; }
-		h3, .h3			{ font-size : 1.6em; margin-bottom : 1.9rem; }
-		h4, .h4			{ font-size : 1.3em; margin-bottom : 1.7rem; }
-		h5, .h5			{ font-size : 1.0em; margin-bottom : 1.5rem; }
-		h6, .h6			{ font-size : .75em; }
+		h1, .h1 		{ font-size : 2.0em; margin-bottom : 2.0em; }
+		h2, .h2			{ font-size : 1.8em; margin-bottom : 1.8em; }
+		h3, .h3			{ font-size : 1.6em; margin-bottom : 1.6em; }
+		h4, .h4			{ font-size : 1.3em; margin-bottom : 1.3em; }
+		h5, .h5			{ font-size : 1.0em; margin-bottom : 1.0em; }
+		h6, .h6			{ font-size : .8em; margin-bottom : .8em; }
 		
 		h1 a:link, 
 		h1 a:visited 	{ color : #ccc; text-decoration : none; }
