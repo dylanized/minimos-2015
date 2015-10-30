@@ -6,6 +6,7 @@
 	
 	:root { box-sizing: border-box; } /* box model */
 	
+	*,
 	*:before,
 	*:after {
 	  box-sizing: inherit;
@@ -18,13 +19,23 @@
 		line-height : 1.5;
 	}
 	
-	header,
-	footer,
-	section,
+	article,
+	aside,
 	details,
-	summary,
+	dl,
+	dt,
+	dd,
+	figcaption,
+	figure,
+	footer,
+	header,
+	hgroup,
+	legend,
 	main,
-	article {
+	menu,
+	nav,
+	section,
+	summary {
 	  display: block;
 	  margin : 0;
 	  padding : 0;
@@ -109,25 +120,16 @@
 	table {
 	  border-collapse: collapse;
 	  border-spacing: 0;
-	  margin : 0;
-	  padding : 0;			
+	  margin : 0;		
 	}
 	
 	td,
 	th {
 	  padding: 0;
 	}	
-	
-	dt, dd {
-		display : block;
-		margin : 0 0 1rem 0;
-		padding : 0;
-	}
-	
-	dt {
-		font-weight : bold;
-		margin-bottom : 0;
-	}	
+		
+	dt { font-weight : bold; }	
+	dd { margin : 0 0 1rem 0; }
 	
 	img,
 	object,
